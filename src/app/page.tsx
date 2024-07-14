@@ -1,12 +1,15 @@
 import { AiOutlineDown } from "react-icons/ai";
+import localFont from 'next/font/local'
+
+const phosphate = localFont({ src: './Phosphate.ttf', variable: '--font-phosphate'})
 
 export default function Home() {
   return (
     // TODO: Add Navbar
     <div className="h-screen flex flex-col justify-center items-center">
       <h1
-        className="text-7xl text-center font-bold mb-10 bg-gradient-to-tr from-[#E55D76] to-[#5FC3E4]
-                     inline-block text-transparent bg-clip-text"
+        className={`${phosphate.variable} font-sans text-7xl text-center mb-10 bg-gradient-to-tr from-[#E55D76] to-[#5FC3E4]
+                     inline-block text-transparent bg-clip-text`}
       >
         One Maze, One Mouse,
         <br />
