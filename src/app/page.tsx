@@ -9,10 +9,10 @@ export default function Home() {
           One Maze, One Mouse,<br/>One Clock
       </h1>
 
-      <p className="w-2/3 text-2xl text-center mb-10">Micromouse is a high-stakes competition where small mechanical mice
+      <p className="w-2/3 text-2xl font-['Outfit'] text-center mb-10">Micromouse is a high-stakes competition where small mechanical mice
          have to autonomously complete a maze in the least amount of time. <br/><br/>Are you up for the challenge?</p>
       <h1 className="text-5xl text-center mb-10">YES!</h1>
-      <h1 className="text-7xl hover:text-sky-500"><AiOutlineDown/></h1>
+      <h1 className="text-7xl hover:text-sky-500 ease-in duration-300 animate-bounce"><AiOutlineDown/></h1>
       
     </div>
   );
