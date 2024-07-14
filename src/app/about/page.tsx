@@ -1,15 +1,14 @@
 import Image from 'next/image';
-import localFont from 'next/font/local';
 import "../globals.css";
+import { phosphate } from "../fonts";
 
-const phosphate = localFont({ src: '../Phosphate.ttf', variable: '--font-phosphate'});
 
 export default function About() {
     return (
-        <div className="flex flex-col items-center">
-            <div className="bg-[#5FC3E4] px-16 text-white mb-10">
-                <h1 className={`${phosphate.variable} text-7xl mb-5`}>MISSION STATEMENT</h1>
-                <p>
+        <div className="flex flex-col items-center mb-32">
+            <div className="bg-[#5FC3E4] px-16 py-16 mb-12 text-white">
+                <h1 className={`${phosphate.variable} font-sans text-6xl mb-5`}>MISSION STATEMENT</h1>
+                <p className="text-lg">
                 At MEC, we have always believed that nothing is more precious than
                 kindling a love for STEM amongst middle and high school students. That's why
                 we present to you the micromouse program: an all-encompassing, hands-on education
@@ -24,7 +23,7 @@ export default function About() {
                 </p>
             </div>
             <div className="px-16">
-                <h1 className="${phosphate.variable} text-7xl mb-5 text-center">Meet The Team</h1>
+                <h1 className={`${phosphate.variable} font-sans text-6xl mb-10 text-center mb-20`}>MEET THE TEAM</h1>
                 <div className="grid grid-cols-3 gap-[10rem]">
                     <div className="font-bold text-center">
                         <h1>Aditya Choudhary</h1>

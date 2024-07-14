@@ -1,17 +1,13 @@
 "use client";
 import { AiOutlineDown } from "react-icons/ai";
-import localFont from "next/font/local";
 import Link from "next/link";
+import { phosphate } from "./fonts";
 import * as React from "react";
 import { useState, useEffect } from "react";
-const phosphate = localFont({
-  src: "./Phosphate.ttf",
-  variable: "--font-phosphate",
-});
+
 
 export default function Home() {
   return (
-    // TODO: Add Navbar
     <>
       <nav className="bg-white border-gray-200 ">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
