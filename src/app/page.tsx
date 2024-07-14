@@ -140,7 +140,7 @@ export default function Home() {
           Are you up for the challenge?
         </p>
         <h1 className="text-5xl text-center mb-10">YES!</h1>
-        <h1 className="text-7xl hover:text-sky-500 ease-in duration-300 animate-bounce">
+        <h1 className="text-7xl hover:text-lightBlue ease-in duration-300 animate-bounce">
           <AiOutlineDown />
         </h1>
       </div>
