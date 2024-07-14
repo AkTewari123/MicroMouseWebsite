@@ -1,7 +1,7 @@
 import { AiOutlineDown } from "react-icons/ai";
-import localFont from 'next/font/local'
+import localFont from 'next/font/local';
 
-const phosphate = localFont({ src: './Phosphate.ttf', variable: '--font-phosphate'})
+const phosphate = localFont({ src: './Phosphate.ttf', variable: '--font-phosphate'});
 
 export default function Home() {
   return (
@@ -11,9 +11,9 @@ export default function Home() {
         className={`${phosphate.variable} font-sans text-7xl text-center mb-10 bg-gradient-to-tr from-[#E55D76] to-[#5FC3E4]
                      inline-block text-transparent bg-clip-text`}
       >
-        One Maze, One Mouse,
+        ONE MAZE, ONE MOUSE
         <br />
-        One Clock
+        ONE CLOCK
       </h1>
 
       <p className="w-2/3 text-2xl font-['Outfit'] text-center mb-10">
