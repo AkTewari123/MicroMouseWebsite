@@ -26,7 +26,8 @@ export default function Home() {
         </p>
         <h1 className="text-5xl text-center mb-10">YES!</h1>
         <h1 className="text-7xl hover:text-sky-500">
-          <AiOutlineDown />
+          <AiOutlineDown /> 
+          <p>This is on FigmaBranch?</p>
         </h1>
       </div>
     </>
