@@ -3,7 +3,7 @@ import { AiOutlineDown } from "react-icons/ai";
 export default function Faq() {
   return (
     // TODO: make format nicer
-    <div className="h-screen flex flex-col items-start p-6 bg-blue-400">
+    <div className="h-screen flex flex-col items-start p-6 bg-lightBlue">
       <div className="max-w-4xl w-full">
         <h1 className={`font-sans text-6xl text-left mb-10
                         inline-block text-white bg-clip-text`}>

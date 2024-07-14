@@ -15,6 +15,9 @@ const config: Config = {
       },
       fontFamily: {
         sans: ['var(--font-phosphate)']
+      }, 
+      colors: {
+        "lightBlue": '#5FC3E4'
       }
     },
   },
