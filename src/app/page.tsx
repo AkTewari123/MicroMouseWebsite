@@ -2,26 +2,21 @@
 import { AiOutlineDown } from "react-icons/ai";
 import { phosphate } from "./fonts";
 import * as React from "react";
-import {Navbar, Footer} from "./components";
+import { Navbar, Footer } from "./components";
 import Image from "next/image";
 import Head from "next/head";
 
 export default function Home() {
   return (
     <>
-
       <Head>
         <link
           rel="stylesheet"
           href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
         />
       </Head>
-      
-      <Navbar
-      aboutCol = "text-black" 
-      faqCol = "text-black" 
-      
-      />
+
+      <Navbar aboutCol="text-black" faqCol="text-black" />
 
       <div className="h-screen flex flex-col justify-center items-center">
         <h1
@@ -47,25 +42,24 @@ export default function Home() {
       </div>
 
       <div className="flex flex-col items-center mb-10">
-        <div className="w-2/3 mb-10">
-          <h2 className="text-4xl font-bold">VENUE</h2>
-          <p className="text-lg mb-4">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </p>
-          <Image
-            src="/venue.ico"
-            alt="Venue Image"
-            layout="responsive"
-            objectFit="cover"
-            width={800}
-            height={400}
-          />
-        </div>
-        
-        </div>
-          <div className="w-2/3">
-            <h2 className="text-4xl font-bold">IMPACT</h2>
+        <div className="flex flex-col items-center md:flex-row md:items-start w-2/3 mb-10">
+          <div className="w-full md:w-1/2 p-4">
+            <h2 className="text-4xl font-bold text-gradient mb-4">VENUE</h2>
+            <p className="text-lg mb-4">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <Image
+              src="/venue.ico"
+              alt="Venue Image"
+              layout="responsive"
+              objectFit="cover"
+              width={800}
+              height={400}
+            />
+          </div>
+          <div className="w-full md:w-1/2 p-4">
+            <h2 className="text-4xl font-bold text-gradient mb-4">IMPACT</h2>
             <p className="text-lg mb-4">
               Micromouse offers a priceless and immersive educational experience.
               We want middle school and high school students to explore STEM. To
@@ -82,7 +76,9 @@ export default function Home() {
               height={400}
             />
           </div>
-      
+        </div>
+      </div>
+
       <Footer />
     </>
   );
