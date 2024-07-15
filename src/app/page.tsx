@@ -4,10 +4,19 @@ import { phosphate } from "./fonts";
 import * as React from "react";
 import {Navbar, Footer} from "./components";
 import Image from "next/image";
+import Head from "next/head";
 
 export default function Home() {
   return (
     <>
+
+      <Head>
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+        />
+      </Head>
+      
       <Navbar
       aboutCol = "text-black" 
       faqCol = "text-black" 
