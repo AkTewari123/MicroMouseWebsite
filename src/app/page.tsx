@@ -2,7 +2,8 @@
 import { AiOutlineDown } from "react-icons/ai";
 import { phosphate } from "./fonts";
 import * as React from "react";
-import {Navbar, Footer} from "./components";  
+import {Navbar, Footer} from "./components";
+import Image from "next/image";
 
 export default function Home() {
   return (
