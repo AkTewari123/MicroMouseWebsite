@@ -54,7 +54,7 @@ export default function Home() {
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
           <Image
-            src="./venue.ico"
+            src="/venue.ico"
             alt="Venue Image"
             layout="responsive"
             objectFit="cover"
@@ -74,7 +74,7 @@ export default function Home() {
               autonomously complete a maze.
             </p>
             <Image
-              src="./impact.ico"
+              src="/impact.ico"
               alt="Impact Image"
               layout="responsive"
               objectFit="cover"
