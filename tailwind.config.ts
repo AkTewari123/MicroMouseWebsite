@@ -36,7 +36,8 @@ const config: Config = {
       colors: {
         "lightBlue": '#5FC3E4',
         'blackGood': '#2B2B2C',
-        'silverBord': "#5E5E5F"
+        'silverBord': "#5E5E5F",
+        'greyGood': '#E8EAEC'
 
       }
     },

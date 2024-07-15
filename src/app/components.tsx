@@ -1,8 +1,5 @@
-"use client"
-import {
-  useState,
-  useEffect
-} from "react"
+"use client";
+import { useState, useEffect } from "react";
 
 import "@fortawesome/fontawesome-free/css/all.min.css";
 type NavbarPropsType = {
@@ -15,25 +12,39 @@ type QuestionPropsType = {
   answer?: string;
 };
 export const Question = (props: QuestionPropsType) => {
-  const [but, setBut] = useState([`transition duration-[500ms] fas fa-arrow-down`, `hidden`]);
-  const iconStyle = `float-right text-black inline ${but[0]}`
-  const questionStyle = `font-semibold border-b-[1px] border-silver w-[40%] ml-[20%] mt-[2%] p-4 mb-[2%]`
-  const answerStyle = `font-normal ${but[1]} mt-[5%]`
+  const [but, setBut] = useState([
+    `transition duration-[500ms] fas fa-arrow-down`,
+    `hidden`,
+  ]);
+  const iconStyle = `float-right text-black inline ${but[0]}`;
+  const questionStyle = `font-semibold border-b-[1px] border-silver w-[40%] ml-[20%] mt-[2%] p-4 mb-[2%]`;
+  const answerStyle = `font-normal ${but[1]} mt-[5%]`;
   return (
-
     <>
       <div>
-        <div className = {questionStyle}>{props.text} <i className={iconStyle}
-        onClick = {() => {
-          if(but[0] === 'transition duration-[500ms] fas fa-arrow-down' || but[0] === 'fas fa-arrow-down') {
-          setBut([`transition duration-[500ms] rotate-180 fas fa-arrow-down`, `transition-all duration-[500ms] block`])
-          } else {
-          setBut([`transition duration-[500ms] fas fa-arrow-down`, `transition-all duration-[500ms] hidden`])
-
-          }
-        }}></i><p className = {answerStyle}>{props.answer}</p></div>
-        
-        
+        <div className={questionStyle}>
+          {props.text}{" "}
+          <i
+            className={iconStyle}
+            onClick={() => {
+              if (
+                but[0] === "transition duration-[500ms] fas fa-arrow-down" ||
+                but[0] === "fas fa-arrow-down"
+              ) {
+                setBut([
+                  `transition duration-[500ms] rotate-180 fas fa-arrow-down`,
+                  `transition-all duration-[500ms] block`,
+                ]);
+              } else {
+                setBut([
+                  `transition duration-[500ms] fas fa-arrow-down`,
+                  `transition-all duration-[500ms] hidden`,
+                ]);
+              }
+            }}
+          ></i>
+          <p className={answerStyle}>{props.answer}</p>
+        </div>
       </div>
     </>
   );
@@ -80,46 +91,44 @@ export const Footer = () => {
 };
 
 export const Navbar = (props: NavbarPropsType) => {
-  const rulesStyle = `opacity-100 block font-['Outfit'] ml-[20px] py-2 px-4 rounded transition duration-[500ms] hover:text-lightBlue md:hover:bg-transparent md:p-0 dark:hover:bg-gray-700  md:dark:hover:bg-transparent dark:border-gray-700`;
-  const faqStyle = `opacity-100 block font-['Outfit'] ml-[20px] py-2 px-4 ${props.faqCol} rounded transition duration-[500ms] hover:text-lightBlue md:hover:bg-transparent md:p-0 dark:hover:bg-gray-700  md:dark:hover:bg-transparent dark:border-gray-700`;
-  const aboutUsStyle = `opacity-100 block font-['Outfit'] ml-[20px] py-2 px-4 ${props.aboutCol} rounded transition duration-[500ms] hover:text-lightBlue md:hover:bg-transparent md:p-0 dark:hover:bg-gray-700  md:dark:hover:bg-transparent dark:border-gray-700`;
+  const [ulStyle, setDropStyle] = useState(`hidden`);
+  const faqStyle = `block py-2 px-3 ${props.faqCol} rounded mt-2 hover:bg-gray-100 md:hover:bg-transparent transition duration-[500ms] md:hover:text-lightBlue md:p-0   dark:hover:bg-gray-700  md:dark:hover:bg-transparent dark:border-gray-700`;
+  const aboutStyle = `block py-2 px-3 ${props.aboutCol} rounded mt-2 hover:bg-gray-100 md:hover:bg-transparent transition duration-[500ms] md:hover:text-lightBlue md:p-0   dark:hover:bg-gray-700  md:dark:hover:bg-transparent dark:border-gray-700`;
   return (
     <>
-      <nav className="bg-white border-gray-200 fixed w-full z-40 opacity-80">
+      <nav className="bg-white fixed w-full z-20 top-0 start-0 text-[23px] opacity-80">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-          <a href="http://localhost:3000">
+          <a
+            href="/"
+            className="flex items-center space-x-3 rtl:space-x-reverse"
+          >
             <img
-              src="https://media.discordapp.net/attachments/834855883623235605/1262149280454541312/wEqE3sbksPlmgAAAABJRU5ErkJggg.png?ex=66958b9e&is=66943a1e&hm=48d29252482380999fa71737f1076cc4bdec3e7ad5ca5c5be8c2ffb9c05f4c26&=&format=webp&quality=lossless&width=1210&height=693"
-              className="h-16 opacity-100"
-              alt="MEC Logo"
+              src="https://media.discordapp.net/attachments/834855883623235605/1262149280454541312/wEqE3sbksPlmgAAAABJRU5ErkJggg.png?ex=6696345e&is=6694e2de&hm=c6fad1097c4435e849587d79456447c8c92f0960034a1a65a18df95695faad1f&=&format=webp&quality=lossless&width=1810&height=1038"
+              className="h-[70px]"
+              alt="Flowbite Logo"
             />
           </a>
-          <div className="flex md:order-2">
-            <button
-              type="button"
-              data-collapse-toggle="navbar-search"
-              aria-controls="navbar-search"
-              aria-expanded="false"
-              className="md:hidden text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 me-1"
-            >
-              <span className="sr-only">Register</span>
-            </button>
-            <div className="relative ">
-              <div className="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none"></div>
-
-              <a
-                href="https://www.remove.bg/upload"
-                className="px-5 opacity-100 py-1 text-[23px] rounded-full  bg-lightBlue dark:text-black font-bold transition duration-[1000ms] hover:text-white"
+          <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+            <a href="https://www.remove.bg/" target="_blank">
+              <button
+                type="button"
+                className="text-white bg-lightBlue transition duration-[500ms] text-[30px] hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm px-8 py-3 text-center "
               >
                 Register
-              </a>
-            </div>
-            <button
-              data-collapse-toggle="navbar-search"
-              type="button"
-              className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
-              aria-controls="navbar-search"
+              </button>
+            </a>
+            <p
+              data-collapse-toggle="navbar-sticky"
+              className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden transition duration-[500ms] hover:bg-lightBlue focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-blue-500 dark:hover:bg-lightBlue dark:focus:ring-blue-700"
+              aria-controls="navbar-sticky"
               aria-expanded="false"
+              onClick={() => {
+                ulStyle === `hidden`
+                  ? setDropStyle(
+                      `text-[20px] md:hidden mt-2 ml-[5%] w-[90%] float-left bg-white`
+                    )
+                  : setDropStyle(`hidden`);
+              }}
             >
               <span className="sr-only">Open main menu</span>
               <svg
@@ -137,61 +146,60 @@ export const Navbar = (props: NavbarPropsType) => {
                   d="M1 1h15M1 7h15M1 13h15"
                 />
               </svg>
-            </button>
+            </p>
           </div>
           <div
             className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
-            id="navbar-search"
+            id="navbar-sticky"
           >
-            <div className="relative mt-3 md:hidden">
-              <div className="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
-                <svg
-                  className="w-4 h-4 text-gray-500 dark:text-gray-400"
-                  aria-hidden="true"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 20 20"
-                >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"
-                  />
-                </svg>
-              </div>
-              <input
-                type="text"
-                id="search-navbar"
-                className="block w-full p-2 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                placeholder="Search..."
-              />
-            </div>
-            <ul className="flex font-['Outfit'] flex-col p-4  md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 text-[23px] md:bg-white ">
+            <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white ">
               <li>
-                <a href="/about" className={aboutUsStyle} aria-current="page">
+                <a href="/about" className={aboutStyle} aria-current="page">
                   About Us
                 </a>
               </li>
               <li>
                 <a
-                  href="https://attend.ieee.org/r2sac-2020/wp-content/uploads/sites/175/2020/01/MicroMouse_Rules_2020.pdf"
-                  className={rulesStyle}
-                  target="_blank"
+                  href="#"
+                  className="block py-2 px-3 text-gray-900 rounded mt-2 hover:bg-gray-100 md:hover:bg-transparent transition duration-[500ms] md:hover:text-lightBlue md:p-0   dark:hover:bg-gray-700  md:dark:hover:bg-transparent dark:border-gray-700"
                 >
                   Rules
                 </a>
               </li>
               <li>
-                <a href="./faq" className={faqStyle}>
+                <a href="/faq" className={faqStyle}>
                   FAQ
                 </a>
               </li>
             </ul>
           </div>
         </div>
+        <ul className={ulStyle}>
+          <a href="/about">
+            <li className="bg-greyGood py-4 pl-8 mb-4 rounded-full transition duration-[700ms] hover:bg-silverBord hover:text-white">
+              About Us{" "}
+              <i className="fas fa-arrow-up rotate-45 float-right mr-[50px]"></i>
+            </li>
+          </a>
+          <a
+            href="https://attend.ieee.org/r2sac-2020/wp-content/uploads/sites/175/2020/01/MicroMouse_Rules_2020.pdf"
+            target="_blank"
+          >
+            <li className="bg-greyGood py-4 pl-8 mb-4 rounded-full transition duration-[700ms] hover:bg-silverBord hover:text-white">
+              Rules{" "}
+              <i className="fas fa-arrow-up rotate-45 float-right mr-[50px]"></i>
+            </li>
+          </a>
+
+          <a href="/faq">
+            <li className="bg-greyGood py-4 pl-8 mb-4 rounded-full transition duration-[700ms] hover:bg-silverBord hover:text-white">
+              FAQ{" "}
+              <i className="fas fa-arrow-up rotate-45 float-right mr-[50px]"></i>
+            </li>
+          </a>
+        </ul>
       </nav>
+
       <div className="h-[100px]"></div>
     </>
   );

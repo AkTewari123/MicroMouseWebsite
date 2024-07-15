@@ -13,7 +13,7 @@ export default function Faq() {
       />
       <div className=" flex flex-col items-start p-6 h-[350px] bg-lightBlue w-full">
       <h1
-            className={`${phosphate.variable} font-sans text-6xl text-white text-center mb-5`}
+            className={`${phosphate.variable} font-sans text-6xl text-white text-center mt-8 mb-5`}
           >
             FREQUENTLY ASKED QUESTIONS
           </h1>
