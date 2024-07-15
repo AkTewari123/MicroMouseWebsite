@@ -35,6 +35,39 @@ export default function Home() {
           <AiOutlineDown />
         </h1>
       </div>
+
+      <div className="flex flex-col items-center mb-10">
+        <div className="w-2/3 mb-10">
+          <h2 className="text-4xl font-bold">VENUE</h2>
+          <p className="text-lg mb-4">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <Image
+            src="/venue.ico"
+            alt="Venue Image"
+            width={800}
+            height={400}
+          />
+        </div>
+        <div className="w-2/3">
+          <h2 className="text-4xl font-bold">IMPACT</h2>
+          <p className="text-lg mb-4">
+            Micromouse offers a priceless and immersive educational experience.
+            We want middle school and high school students to explore STEM. To
+            plant the seeds of passion, students nurture creativity, teamwork,
+            and problem solving in order to program a small robot that can
+            autonomously complete a maze.
+          </p>
+          <Image
+            src="/impact.ico"
+            alt="Impact Image"
+            width={800}
+            height={400}
+          />
+        </div>
+      </div>
+      
       <Footer />
     </>
   );
