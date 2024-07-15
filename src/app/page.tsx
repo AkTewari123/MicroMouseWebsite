@@ -54,29 +54,34 @@ export default function Home() {
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
           <Image
-            src="/venue.ico"
+            src="./venue.ico"
             alt="Venue Image"
+            layout="responsive"
+            objectFit="cover"
             width={800}
             height={400}
           />
         </div>
-        <div className="w-2/3">
-          <h2 className="text-4xl font-bold">IMPACT</h2>
-          <p className="text-lg mb-4">
-            Micromouse offers a priceless and immersive educational experience.
-            We want middle school and high school students to explore STEM. To
-            plant the seeds of passion, students nurture creativity, teamwork,
-            and problem solving in order to program a small robot that can
-            autonomously complete a maze.
-          </p>
-          <Image
-            src="/impact.ico"
-            alt="Impact Image"
-            width={800}
-            height={400}
-          />
+        
         </div>
-      </div>
+          <div className="w-2/3">
+            <h2 className="text-4xl font-bold">IMPACT</h2>
+            <p className="text-lg mb-4">
+              Micromouse offers a priceless and immersive educational experience.
+              We want middle school and high school students to explore STEM. To
+              plant the seeds of passion, students nurture creativity, teamwork,
+              and problem solving in order to program a small robot that can
+              autonomously complete a maze.
+            </p>
+            <Image
+              src="./impact.ico"
+              alt="Impact Image"
+              layout="responsive"
+              objectFit="cover"
+              width={800}
+              height={400}
+            />
+          </div>
       
       <Footer />
     </>
