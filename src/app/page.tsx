@@ -41,39 +41,50 @@ export default function Home() {
         </h1>
       </div>
 
-      <div className="flex flex-wrap justify-center items-start gap-10 mb-10 px-10">
-        <div className="w-full md:w-1/2">
-          <h2 className="text-4xl font-bold text-gradient mb-4">VENUE</h2>
-          <p className="text-lg mb-4">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </p>
-          <Image
-            src="/venue.ico"
-            alt="Venue Image"
-            layout="responsive"
-            objectFit="cover"
-            width={800}
-            height={400}
-          />
+      <div className="flex flex-col gap-10 mb-10 px-10">
+        {/* Venue Section */}
+        <div className="flex flex-col md:flex-row items-center md:items-start mb-10">
+          <div className="md:w-1/2 md:pr-10">
+            <h2 className="text-4xl font-bold text-gradient mb-4">VENUE</h2>
+            <p className="text-lg mb-4">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+          <div className="md:w-1/2">
+            <Image
+              src="/venue.ico"
+              alt="Venue Image"
+              layout="responsive"
+              objectFit="cover"
+              width={800}
+              height={400}
+            />
+          </div>
         </div>
-        <div className="w-full md:w-1/2">
-          <Image
-            src="/impact.ico"
-            alt="Impact Image"
-            layout="responsive"
-            objectFit="cover"
-            width={800}
-            height={400}
-          />
-          <h2 className="text-4xl font-bold text-gradient mt-4 mb-4">IMPACT</h2>
-          <p className="text-lg mb-4">
-            Micromouse offers a priceless and immersive educational experience.
-            We want middle school and high school students to explore STEM. To
-            plant the seeds of passion, students nurture creativity, teamwork,
-            and problem solving in order to program a small robot that can
-            autonomously complete a maze.
-          </p>
+
+        {/* Impact Section */}
+        <div className="flex flex-col md:flex-row-reverse items-center md:items-start mb-10">
+          <div className="md:w-1/2 md:pl-10">
+            <h2 className="text-4xl font-bold text-gradient mb-4">IMPACT</h2>
+            <p className="text-lg mb-4">
+              Micromouse offers a priceless and immersive educational experience.
+              We want middle school and high school students to explore STEM. To
+              plant the seeds of passion, students nurture creativity, teamwork,
+              and problem solving in order to program a small robot that can
+              autonomously complete a maze.
+            </p>
+          </div>
+          <div className="md:w-1/2">
+            <Image
+              src="/impact.ico"
+              alt="Impact Image"
+              layout="responsive"
+              objectFit="cover"
+              width={800}
+              height={400}
+            />
+          </div>
         </div>
       </div>
 
