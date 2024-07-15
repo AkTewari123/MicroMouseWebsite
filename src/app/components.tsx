@@ -72,17 +72,17 @@ export const Footer = () => {
           <img
             src="https://media.discordapp.net/attachments/834855883623235605/1262213223755677746/image.png?ex=6695c72b&is=669475ab&hm=1b314ac20ba86db9d8c548ca1379b138769759748ed4659916badfb54e0e00b8&=&format=webp&quality=lossless&width=633&height=554"
             className="h-[30px] inline"
-            alt="Join us on youtube "
+            alt="Join us on instagram "
           />
           <img
             src="https://media.discordapp.net/attachments/834855883623235605/1262213158622330952/image.png?ex=6695c71b&is=6694759b&hm=59fad40b8a8fb3bcafd8513c78f251f16e1a9daf2034bedfa75a5d83f3acae2f&=&format=webp&quality=lossless&width=655&height=506"
             className="h-[30px] inline"
-            alt="Join us on youtube "
+            alt="Join us on discord "
           />
           <img
             src="https://media.discordapp.net/attachments/834855883623235605/1262213097230434375/image.png?ex=6695c70d&is=6694758d&hm=6744f8ba2d91f3511d7e6c5d9a8d8904ebe4a99441d6758dfb75f108dfe559df&=&format=webp&quality=lossless&width=642&height=536"
             className="h-[30px] inline"
-            alt="Join us on youtube "
+            alt="Join us on twitter "
           />
         </p>
       </footer>
@@ -112,7 +112,7 @@ export const Navbar = (props: NavbarPropsType) => {
             <a href="https://www.remove.bg/" target="_blank">
               <button
                 type="button"
-                className="text-white bg-lightBlue transition duration-[500ms] text-[30px] hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm px-8 py-3 text-center "
+                className="text-white bg-lightBlue transition duration-[500ms] text-[1.5rem] hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm px-8 py-3 text-center "
               >
                 Register
               </button>
