@@ -12,11 +12,11 @@ export default function Faq() {
         faqCol="text-lightBlue underline underline-offset-8"
       />
       <div className=" flex flex-col items-start p-6 h-[350px] bg-lightBlue w-full">
-        <h1
-          className={`${phosphate.variable} font-sans text-white text-6xl mb-5`}
-        >
-          Fre
-        </h1>
+      <h1
+            className={`${phosphate.variable} font-sans text-6xl text-white text-center mb-5`}
+          >
+            FREQUENTLY ASKED QUESTIONS
+          </h1>
         <br></br>
         <p className="inline text-lg font-['Outfit'] leading-relaxed text-white w-[70%]">
           At MEC, we have always believed that nothing is more precious than

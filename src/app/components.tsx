@@ -26,9 +26,9 @@ export const Question = (props: QuestionPropsType) => {
         <div className = {questionStyle}>{props.text} <i className={iconStyle}
         onClick = {() => {
           if(but[0] === 'transition duration-[500ms] fas fa-arrow-down' || but[0] === 'fas fa-arrow-down') {
-          setBut([`transition duration-[500ms] rotate-180 fas fa-arrow-down`, `transition duration-[500ms] block`])
+          setBut([`transition duration-[500ms] rotate-180 fas fa-arrow-down`, `transition-all duration-[500ms] block`])
           } else {
-          setBut([`transition duration-[500ms] fas fa-arrow-down`, `hidden`])
+          setBut([`transition duration-[500ms] fas fa-arrow-down`, `transition-all duration-[500ms] hidden`])
 
           }
         }}></i><p className = {answerStyle}>{props.answer}</p></div>
@@ -85,7 +85,7 @@ export const Navbar = (props: NavbarPropsType) => {
   const aboutUsStyle = `opacity-100 block font-['Outfit'] ml-[20px] py-2 px-4 ${props.aboutCol} rounded transition duration-[500ms] hover:text-lightBlue md:hover:bg-transparent md:p-0 dark:hover:bg-gray-700  md:dark:hover:bg-transparent dark:border-gray-700`;
   return (
     <>
-      <nav className="bg-white border-gray-200 fixed w-full opacity-80 ">
+      <nav className="bg-white border-gray-200 fixed w-full z-40 opacity-80">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a href="http://localhost:3000">
             <img
