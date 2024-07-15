@@ -41,7 +41,10 @@ const config: Config = {
         'discordPurp': '#5864F2',
         'sheetsGreen': '#1FA463',
         'formPurp': "#7248B9",
-        "youtubeRed": "#FF0000"
+        "youtubeRed": "#FF0000",
+        "tcnjBlue": "#474E7D",
+        "autodeskYellow": "#FAC52D",
+        "ieeeGreen": "#27C2A0"
 
       }
     },

@@ -55,8 +55,106 @@ export default function Faq() {
         target="_blank"
         className="text-youtubeRed font-semibold decoration underline underline-offset-4 decoration-3 inline"
       >
-          Youtube <i className="fas fa-arrow-up rotate-45"></i>
-      </a> to learn Python for this project.
+        Youtube <i className="fas fa-arrow-up rotate-45"></i>
+      </a>{" "}
+      to learn Python for this project.
+    </>
+  );
+  const TeamAnswerThree = (
+    <>
+      Micromouse is an engineering competition where small, robotic mice{" "}
+      <a
+        href="https://drive.google.com/drive/folders/13Gqyx88dv3vA7_w2pK9YYdSOxhkDC985?usp=drive_link"
+        target="_blank"
+        className="text-sheetsGreen font-semibold decoration underline underline-offset-4 decoration-3 inline"
+      >
+        (to see an image of a sample maze, mice, and competition that is typical
+        for a micromouse competition)
+        <i className="fas fa-arrow-up rotate-45"></i>
+      </a>{" "}
+      are programmed to automonomously complete a 10 foot by 10 foot maze. This
+      micromouse competition, along with MEC, is sanctioned by {"  "}
+      <a
+        href="https://drive.google.com/drive/folders/13Gqyx88dv3vA7_w2pK9YYdSOxhkDC985?usp=drive_link"
+        target="_blank"
+        className="text-silverBord font-semibold decoration underline underline-offset-4 decoration-3 inline"
+      >
+        IEEE <i className="fas fa-arrow-up rotate-45"></i>
+      </a>{" "}
+      .
+    </>
+  );
+  const TeamAnswerFour = (
+    <>
+      Unfortunately, this competition is available exclusively to K-12 students.
+      However, {"  "}
+      <a
+        href="https://robotics.pages.tcnj.edu/"
+        target="_blank"
+        className="text-tcnjBlue font-semibold decoration underline underline-offset-4 decoration-3 inline"
+      >
+        the TCNJ website <i className="fas fa-arrow-up rotate-45"></i>
+      </a>{" "}
+      has a list of plenty of robotics competitions that are open to college
+      students. These competitions are in New Jersey.
+    </>
+  );
+  const TeamAnswerSeven = (
+    <>
+      Don't procrastinate! There is plenty of time to make a mouse for this competition, 
+      and that's for a purpose. In addition, we reccommend that you spend a lot of time and 
+      effort into making a robot that can complete this task quickly.
+      To add on, doing trial runs would get you prepared. Finally, there will be a lot of 
+      setbacks in making this mouse, so we reccomend you be patient, and dilligent as you and 
+      your team are in this together for the long run. Visit {"  "}
+      <a
+        href="https://robotics.pages.tcnj.edu/"
+        target="_blank"
+        className="text-ieeeGreen font-semibold decoration underline underline-offset-4 decoration-3 inline"
+      >
+        this page <i className="fas fa-arrow-up rotate-45"></i>
+      </a>{" "} for more information.
+    </>
+  );
+  const TeamAnswerSix = (
+    <>
+      It may cost <b className="text-green-500 decoration underline underline-offset-4">$100-$150</b> to make a
+      Micromouse. Here are all the items necessary to make one:
+      <ol className = "ml-4">
+        <li className = "py-2"><b>1.</b>   Arduino Mega2560</li>
+        <li className = "py-2"><b>2.</b>   Four Infrared sensors (Obstacle avoidance)</li>
+        <li className = "py-2"><b>3.</b>   Motor driver Hbridge</li>
+        <li className = "py-2"><b>4.</b>   Two Ultrasonic sensors </li>
+        <li className = "py-2"><b>5.</b>   Jumbo wires</li>
+        <li className = "py-2"><b>6.</b>   heat shrink</li>
+        <li className = "py-2"><b>7.</b>   2WD miniq robot car chassis</li>
+        <li className = "py-2"><b>8.</b>   Two DC motors with encoders</li>
+      </ol>
+      All information from the list above was taken from {"   "}
+      <a
+        href="https://www.instructables.com/Micro-Mouse-for-Beginnersth/"
+        target="_blank"
+        className="text-autodeskYellow font-semibold decoration underline underline-offset-4 decoration-3 inline"
+      >
+          this website <i className="fas fa-arrow-up rotate-45"></i>
+      </a>
+      . If you need any other technical information, you can reach out to the staff on the   {"  "}    
+      <a
+        href="https://discord.gg/AjcAVctz"
+        target="_blank"
+        className="text-discordPurp font-semibold decoration underline underline-offset-4 decoration-3 inline"
+      >
+        Discord Server <i className="fas fa-arrow-up rotate-45"></i>
+      </a>{" "}, but the best way is to use the internet to get what you need. 
+    </>
+  );
+  const TeamAnswerFive = (
+    <>
+      If this is your first time doing a STEM-intensive activity with a team, it
+      may take 3-5 hours <b>per week</b> of solid work with a team. This may
+      take about 12 weeks depending on your productivity. These weeks will be
+      spent troubleshooting, writing code, and tenaciously following the
+      engineering design process.
     </>
   );
   return (
@@ -92,19 +190,32 @@ export default function Faq() {
         />
       </div>
       <div>
-        <ol>
-          <li>
-            <Question text="How do I get a team?" answer={TeamAnswerOne} />
+
+            <Question
+              text="What are some specifics about Micromouse?"
+              answer={TeamAnswerThree}
+            />
             <Question
               text="I don't know how to build a Micromouse, where can I learn?"
               answer={TeamAnswerTwo}
             />
-            <Question text="Question 2" />
-            <Question text="Question 3" />
-            <Question text="Question 4" />
-            <Question text="Question 5" />
-          </li>
-        </ol>
+            <Question text="How do I get a team?" answer={TeamAnswerOne} />
+            <Question
+              text="I'm in college, can I still participate?"
+              answer={TeamAnswerFour}
+            />
+            <Question
+              text="How much time should I expect to spend on making a micromouse, if it's my first time?"
+              answer={TeamAnswerFive}
+            />
+            <Question
+              text="How much does it cost to make a mouse from scratch? What do I need to make one? "
+              answer={TeamAnswerSix}
+            />
+            <Question
+              text="Is there any other advice that you can give me? "
+              answer={TeamAnswerSeven}
+            />
       </div>
       <Footer />
     </>

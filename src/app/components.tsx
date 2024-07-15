@@ -43,7 +43,7 @@ export const Question = (props: QuestionPropsType) => {
               }
             }}
           ></i>
-          <p className={answerStyle}>{props.answer}</p>
+          <div className={answerStyle}>{props.answer}</div>
         </div>
       </div>
     </>
