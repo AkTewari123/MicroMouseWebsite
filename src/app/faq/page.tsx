@@ -165,7 +165,7 @@ export default function Faq() {
         aboutCol="text-black"
         faqCol="text-lightBlue underline underline-offset-8"
       />
-      <div className=" flex flex-col items-start p-6 h-[350px] bg-lightBlue w-full">
+      <div className=" flex flex-col items-start p-6 h-auto bg-lightBlue w-full">
         <h1
           className={`${phosphate.variable} font-sans text-6xl text-white text-center mt-8 mb-5`}
         >
@@ -181,20 +181,21 @@ export default function Faq() {
           is done through working in teams to develop innovative strategies that
           enable them to program a minature robot that can move independently
           from one point of a labyrinth to the other.
+          
         </p>
 
         <img
-          src="https://media.discordapp.net/attachments/834855883623235605/1262190526006820945/GkAAAAASUVORK5CYII.png?ex=6695b207&is=66946087&hm=091f88bbbe976462f25215aaccba735e9a04cef33e457991254138224f01efc9&=&format=webp&quality=lossless&width=818&height=770"
-          className="h-[300px] float-right ml-[75%] absolute"
+          src="https://media.discordapp.net/attachments/950950901957402675/1262232987936886824/GkAAAAASUVORK5CYII.png?ex=66968253&is=669530d3&hm=2915aa45b4216f764cf97fe9ff7454cdda6f0cb9e3c319ed9e18317c86cd509f&=&format=webp&quality=lossless&width=1512&height=1422"
+          className="h-[300px] float-right ml-[70%] mt-[1%] absolute"
           alt="MEC Logo"
-        />
+           />
+
+        
       </div>
       <div>
-
-            <Question
-              text="What are some specifics about Micromouse?"
-              answer={TeamAnswerThree}
-            />
+        <ol>
+          <li>
+            <Question text="How do I get a team?" answer={TeamAnswerOne} />
             <Question
               text="I don't know how to build a Micromouse, where can I learn?"
               answer={TeamAnswerTwo}
