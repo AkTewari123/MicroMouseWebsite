@@ -3,13 +3,13 @@ import { useState, useEffect } from "react";
 
 import "@fortawesome/fontawesome-free/css/all.min.css";
 type NavbarPropsType = {
-  aboutCol?: string;
-  faqCol?: string;
+  aboutCol?: any;
+  faqCol?: any;
   children?: any;
 };
 type QuestionPropsType = {
-  text?: string;
-  answer?: string;
+  text?: any;
+  answer?: any;
 };
 export const Question = (props: QuestionPropsType) => {
   const [but, setBut] = useState([
@@ -17,7 +17,7 @@ export const Question = (props: QuestionPropsType) => {
     `hidden`,
   ]);
   const iconStyle = `float-right text-black inline ${but[0]}`;
-  const questionStyle = `font-semibold border-b-[1px] border-silver w-[40%] ml-[20%] mt-[2%] p-4 mb-[2%]`;
+  const questionStyle = `font-['Outfit'] font-semibold border-b-[1px] border-silver w-[40%] ml-[20%] mt-[2%] p-4 mb-[2%]`;
   const answerStyle = `font-normal ${but[1]} mt-[5%]`;
   return (
     <>
@@ -96,7 +96,7 @@ export const Navbar = (props: NavbarPropsType) => {
   const aboutStyle = `block py-2 px-3 ${props.aboutCol} rounded mt-2 hover:bg-gray-100 md:hover:bg-transparent transition duration-[500ms] md:hover:text-lightBlue md:p-0   dark:hover:bg-gray-700  md:dark:hover:bg-transparent dark:border-gray-700`;
   return (
     <>
-      <nav className="bg-white fixed w-full z-20 top-0 start-0 text-[23px] opacity-80">
+      <nav className="bg-white font-['Outfit'] fixed w-full z-20 top-0 start-0 text-[23px] opacity-80">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a
             href="/"
@@ -112,7 +112,7 @@ export const Navbar = (props: NavbarPropsType) => {
             <a href="https://www.remove.bg/" target="_blank">
               <button
                 type="button"
-                className="text-white bg-lightBlue transition duration-[500ms] text-[1.5rem] hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm px-8 py-3 text-center "
+                className="text-white bg-lightBlue transition duration-[500ms] text-[100%] hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full px-6 py-1 text-center "
               >
                 Register
               </button>
@@ -160,7 +160,7 @@ export const Navbar = (props: NavbarPropsType) => {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="https://attend.ieee.org/r2sac-2020/wp-content/uploads/sites/175/2020/01/MicroMouse_Rules_2020.pdf"
                   className="block py-2 px-3 text-gray-900 rounded mt-2 hover:bg-gray-100 md:hover:bg-transparent transition duration-[500ms] md:hover:text-lightBlue md:p-0   dark:hover:bg-gray-700  md:dark:hover:bg-transparent dark:border-gray-700"
                 >
                   Rules

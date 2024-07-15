@@ -4,19 +4,75 @@ import { phosphate } from "../fonts";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
 export default function Faq() {
+  const TeamAnswerOne = (
+    <>
+      By joining the{" "}
+      <a
+        href="https://discord.gg/AjcAVctz"
+        target="_blank"
+        className="text-discordPurp font-semibold decoration underline underline-offset-4 decoration-3 inline"
+      >
+        Discord <i className="fas fa-arrow-up rotate-45"></i>
+      </a>
+      {"  "}
+      and looking at the "resources" channel, you can see a {"    "}
+      <a
+        href="https://docs.google.com/spreadsheets/d/1j_LK_1VGpp5ze8Arpm92Ydofv1EeV8OQGTbGoaEW_qA/edit?gid=1955226837#gid=1955226837"
+        target="_blank"
+        className="text-sheetsGreen font-semibold decoration underline underline-offset-4 decoration-3 inline"
+      >
+        Google Sheet <i className="fas fa-arrow-up rotate-45"></i>
+      </a>
+      {"  "}
+      that has a list of interested applicants (and their contact information).
+      You can use this {"    "}
+      <a
+        href="https://docs.google.com/spreadsheets/d/1j_LK_1VGpp5ze8Arpm92Ydofv1EeV8OQGTbGoaEW_qA/edit?gid=1955226837#gid=1955226837"
+        target="_blank"
+        className="text-formPurp font-semibold decoration underline underline-offset-4 decoration-3 inline"
+      >
+        Google Form <i className="fas fa-arrow-up rotate-45"></i>
+      </a>
+      {"  "}
+      You can use this to form a team.
+    </>
+  );
+  const TeamAnswerTwo = (
+    <>
+      The{" "}
+      <a
+        href="https://discord.gg/AjcAVctz"
+        target="_blank"
+        className="text-discordPurp font-semibold decoration underline underline-offset-4 decoration-3 inline"
+      >
+        Discord <i className="fas fa-arrow-up rotate-45"></i>
+      </a>{" "}
+      has a "seminars" text channel. This channel will the details of an
+      upcoming seminars, including the dates and professionals that will need
+      these seminars. You can also use {"         "}
+      <a
+        href="https://www.youtube.com/playlist?list=PLE-BQwvVGf8HOvwXPgtDfWoxd4Cc6ghiP"
+        target="_blank"
+        className="text-youtubeRed font-semibold decoration underline underline-offset-4 decoration-3 inline"
+      >
+          Youtube <i className="fas fa-arrow-up rotate-45"></i>
+      </a> to learn Python for this project.
+    </>
+  );
   return (
     // TODO: make format nicer
+
     <>
       <Navbar
         aboutCol="text-black"
         faqCol="text-lightBlue underline underline-offset-8"
       />
       <div className=" flex flex-col items-start p-6 h-[350px] bg-lightBlue w-full">
-      <h1
-            className={`${phosphate.variable} font-sans text-6xl text-white text-center mt-8 mb-5`}
-          >
-            FREQUENTLY ASKED QUESTIONS
-          </h1>
+        <h1
+          className={`${phosphate.variable} font-sans text-6xl text-white text-center mt-8 mb-5`}
+        >
+          FREQUENTLY ASKED QUESTIONS
+        </h1>
         <br></br>
         <p className="inline text-lg font-['Outfit'] leading-relaxed text-white w-[70%]">
           At MEC, we have always believed that nothing is more precious than
@@ -38,10 +94,11 @@ export default function Faq() {
       <div>
         <ol>
           <li>
-            <Question text="How do I get a team?"
-            answer = "By joining the discord and looking at the 'resources' channel, you can see a google sheet that has a list of interested applicants (and their information) and contact people to form a team."
+            <Question text="How do I get a team?" answer={TeamAnswerOne} />
+            <Question
+              text="I don't know how to build a Micromouse, where can I learn?"
+              answer={TeamAnswerTwo}
             />
-            <Question text="Question 1" />
             <Question text="Question 2" />
             <Question text="Question 3" />
             <Question text="Question 4" />

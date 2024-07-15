@@ -37,7 +37,11 @@ const config: Config = {
         "lightBlue": '#5FC3E4',
         'blackGood': '#2B2B2C',
         'silverBord': "#5E5E5F",
-        'greyGood': '#E8EAEC'
+        'greyGood': '#E8EAEC',
+        'discordPurp': '#5864F2',
+        'sheetsGreen': '#1FA463',
+        'formPurp': "#7248B9",
+        "youtubeRed": "#FF0000"
 
       }
     },
