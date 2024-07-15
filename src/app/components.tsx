@@ -60,13 +60,13 @@ export const Footer = () => {
         </p>
         <img
           src="https://media.discordapp.net/attachments/834855883623235605/1262206388365693061/mecweb.png?ex=6695c0cd&is=66946f4d&hm=ec1aa4a9fe441b42ce409d1711771ff7e018fbdaa94a60e2ed32eeb039707e9b&=&format=webp&quality=lossless&width=1359&height=770"
-          className="w-[15%] ml-[42.5%]"
+          className="w-[120px] ml-[45%]"
           alt="MecIcon"
         />
         <p>
           <img
             src="https://media.discordapp.net/attachments/834855883623235605/1262213374377332828/image.png?ex=6695c74f&is=669475cf&hm=95b1556ca8e5931b5ef737ae9795c040bf534a6c74b7d3e5182f7e78c27d7fd1&=&format=webp&quality=lossless&width=814&height=519"
-            className="h-[30px] inline ml-[44.8%]"
+            className="h-[30px] inline ml-[44%] "
             alt="Join us on youtube "
           />
           <img
