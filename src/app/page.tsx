@@ -23,7 +23,7 @@ export default function Home() {
           ONE CLOCK
         </h1>
 
-        <p className="w-2/3 text-2xl font-['Outfit'] text-center mb-10">
+        <p className="w-2/3 tablet:text-[10px] text-2xl font-['Outfit'] text-center mb-10">
           Micromouse is a high-stakes competition where small mechanical mice
           have to autonomously complete a maze in the least amount of time.{" "}
           <br />

@@ -13,6 +13,23 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      screens: {
+        '2xl': {'max': '1535px'},
+        // => @media (max-width: 1535px) { ... }
+  
+        'laptop': {'min': '1000px'},
+  
+        'tablet': {'min': '800px', 'max': '999px'},
+
+        'smtablet': {'min': '600px', 'max': '799px'},
+        // => @media (max-width: 1023px) { ... }
+  
+        'phone': {'min':'300px', 'max': '599px'},
+        // => @media (max-width: 767px) { ... }
+  
+        'smphone': {'max': '639px'},
+        // => @media (max-width: 639px) { ... }
+      },
       fontFamily: {
         sans: ['var(--font-phosphate)']
       }, 
