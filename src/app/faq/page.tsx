@@ -108,7 +108,7 @@ export default function Faq() {
       setbacks in making this mouse, so we reccomend you be patient, and dilligent as you and 
       your team are in this together for the long run. Visit {"  "}
       <a
-        href="https://robotics.pages.tcnj.edu/"
+        href="https://projects.ieeebruins.com/micromouse/q-and-a"
         target="_blank"
         className="text-ieeeGreen font-semibold decoration underline underline-offset-4 decoration-3 inline"
       >
