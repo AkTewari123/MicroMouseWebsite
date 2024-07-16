@@ -96,7 +96,7 @@ export const Navbar = (props: NavbarPropsType) => {
   const aboutStyle = `block py-2 px-3 ${props.aboutCol} rounded mt-2 hover:bg-gray-100 md:hover:bg-transparent transition duration-[500ms] md:hover:text-lightBlue md:p-0   dark:hover:bg-gray-700  md:dark:hover:bg-transparent dark:border-gray-700`;
   return (
     <>
-      <nav className="bg-white font-['Outfit'] fixed w-full z-20 top-0 start-0 text-[23px] opacity-80">
+      <nav className="bg-white font-['Outfit'] fixed w-full z-20 top-0 start-0 text-[23px] ">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a
             href="/"

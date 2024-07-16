@@ -174,7 +174,7 @@ export default function Faq() {
     <>
       If this is your first time doing a STEM-intensive activity with a team, it
       may take 3-5 hours <b>per week</b> of solid work with a team. This may
-      take about 12 weeks depending on your productivity. These weeks will be
+      take about <b>9 weeks</b> depending on your productivity. These weeks will be
       spent troubleshooting, writing code, and tenaciously following the
       engineering design process.
     </>
