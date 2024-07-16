@@ -44,7 +44,8 @@ const config: Config = {
         "youtubeRed": "#FF0000",
         "tcnjBlue": "#474E7D",
         "autodeskYellow": "#FAC52D",
-        "ieeeGreen": "#27C2A0"
+        "ieeeGreen": "#27C2A0",
+        "lightRed": "#E55D76"
 
       }
     },

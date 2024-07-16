@@ -17,8 +17,8 @@ export const Question = (props: QuestionPropsType) => {
     `hidden`,
   ]);
   const iconStyle = `float-right text-black inline ${but[0]}`;
-  const questionStyle = `font-['Outfit'] font-semibold border-b-[1px] border-silver w-[60%] questionScreen:w-full ml-[20%] questionScreen:ml-[0%] mt-[2%] p-4 mb-[2%]`;
-  const answerStyle = `font-normal ${but[1]} mt-[5%]`;
+  const questionStyle = `text-[1.5rem] font-['Outfit'] font-semibold border-b-[1px] border-silver w-[60%] questionScreen:w-full ml-[20%] questionScreen:ml-[0%] mt-[2%] p-4 mb-[2%]`;
+  const answerStyle = `font-normal text-[1rem] ${but[1]} mt-[5%]`;
   return (
     <>
       <div>
