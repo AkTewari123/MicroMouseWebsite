@@ -25,6 +25,7 @@ export default function Faq() {
       </a>
       {"  "}
       that has a list of interested applicants (and their contact information).
+      You can use this to form a team.
       You can use this {"    "}
       <a
         href="https://docs.google.com/spreadsheets/d/1j_LK_1VGpp5ze8Arpm92Ydofv1EeV8OQGTbGoaEW_qA/edit?gid=1955226837#gid=1955226837"
@@ -33,8 +34,7 @@ export default function Faq() {
       >
         Google Form <i className="fas fa-arrow-up rotate-45"></i>
       </a>
-      {"  "}
-      You can use this to form a team.
+      {"  "} to submit your information to this sheet. 
     </>
   );
   const TeamAnswerTwo = (
