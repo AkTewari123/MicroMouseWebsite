@@ -46,11 +46,13 @@ export default function Home() {
         {/* Venue Section */}
         <div className="flex flex-col md:flex-row items-center md:items-start mb-10">
           <div className="md:w-1/2 md:pr-10">
-          <h1 className={`${phosphate.variable} font-sans text-8xl partTwoScreenThree:mt-[0%] mb-5 pt-4 partTwoScreenThree:text-5xl
+            <h1
+              className={`${phosphate.variable} font-sans text-8xl partTwoScreenThree:mt-[0%] mb-5 pt-4 partTwoScreenThree:text-5xl
                      bg-gradient-to-tr from-[#E55D76] to-[#5FC3E4]
-                     inline-block text-transparent bg-clip-text mt-[10%]`}>
-            VENUE
-          </h1>
+                     inline-block text-transparent bg-clip-text mt-[10%]`}
+            >
+              VENUE
+            </h1>
             <p className="text-[1.5rem] partTwoScreen:text-[125%] partTwoScreenTwo:text-[100%] mb-4">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -68,11 +70,13 @@ export default function Home() {
         {/* Impact Section */}
         <div className="flex flex-col md:flex-row-reverse items-center md:items-start mb-10">
           <div className="md:w-1/2 md:pl-10">
-          <h1 className={`${phosphate.variable} font-sans text-8xl partTwoScreenThree:text-5xl mt-[5%]
+            <h1
+              className={`${phosphate.variable} font-sans text-8xl partTwoScreenThree:text-5xl mt-[5%]
                      inline-block pt-4 partTwoScreenThree:mt-[0%]
-                     bg-gradient-to-tr from-[#E55D76] to-[#5FC3E4] text-transparent bg-clip-text`}>
-            IMPACT
-          </h1>
+                     bg-gradient-to-tr from-[#E55D76] to-[#5FC3E4] text-transparent bg-clip-text`}
+            >
+              IMPACT
+            </h1>
             <p className="text-[150%] mb-[20px] partTwoScreen:text-[125%] partTwoScreenTwo:text-[100%]">
               Micromouse offers a priceless and immersive educational
               experience. We want middle school and high school students to

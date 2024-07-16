@@ -1,15 +1,15 @@
 import Image from "next/image";
 import "../globals.css";
 import { phosphate } from "../fonts";
-import {Navbar, Footer} from "../components";
+import { Navbar, Footer } from "../components";
 
 export default function About() {
   return (
     <>
-        <Navbar
-          aboutCol="text-lightBlue underline underline-offset-8"
-          faqCol="text-black"
-        />
+      <Navbar
+        aboutCol="text-lightBlue underline underline-offset-8"
+        faqCol="text-black"
+      />
       <div className="flex flex-col items-center mb-32">
         <div className="bg-[#5FC3E4] px-16 py-16 mb-12 text-white">
           <h1 className={`${phosphate.variable} font-sans text-6xl mb-5`}>
@@ -52,14 +52,20 @@ export default function About() {
               <h1 className="text-[#5FC3E4]">Head of Advertising</h1>
             </div>
             <div className="font-bold text-center">
+            <img src="https://media.discordapp.net/attachments/834855883623235605/1262905953930444800/image.png?ex=66984c53&is=6696fad3&hm=5bc5134b6a5c3b666743ff2ca02939bb5577097e2cded5a264d40463ac7e077d&=&format=webp&quality=lossless&width=1108&height=1047"
+              className = "h-[100px] center ml-[25%] rounded-full block"></img>
               <h1>Akshat Tewari</h1>
               <h1 className="text-[#5FC3E4]">Head of Technology</h1>
             </div>
             <div className="font-bold text-center">
+            <img src="https://media.discordapp.net/attachments/834855883623235605/1262903157034324029/1705726481563.png?ex=669849b8&is=6696f838&hm=2138c3d209d1fc2400ea5acae9e1b787a337ed03fda28ef74c4d31069b4a0896&=&format=webp&quality=lossless&width=220&height=220"
+              className = "h-[100px] center ml-[25%] rounded-full block"></img>
               <h1>Remy Mander</h1>
               <h1 className="text-[#5FC3E4]">Head of Outreach</h1>
             </div>
             <div className="font-bold text-center">
+              <img src="https://media.discordapp.net/attachments/834855883623235605/1262903811312455770/image.png?ex=66984a54&is=6696f8d4&hm=5a8586f36d03709f9d0faa5903fc213a6456244e2e4cf5c2a3ea7f5a4b290b90&=&format=webp&quality=lossless&width=1049&height=1047"
+              className = "h-[100px] center ml-[25%] rounded-full block"></img>
               <h1>Maria Huan</h1>
               <h1 className="text-[#5FC3E4]">Head of Seminar</h1>
             </div>

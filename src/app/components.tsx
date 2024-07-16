@@ -21,29 +21,29 @@ export const Question = (props: QuestionPropsType) => {
   const answerStyle = `font-normal text-[1rem] ${but[1]} mt-[5%]`;
   return (
     <>
-        <div className={questionStyle}>
-          <p className = "inline-block w-[80%]">{props.text}{" "}</p>
-          <i
-            className={iconStyle}
-            onClick={() => {
-              if (
-                but[0] === "transition duration-[500ms] fas fa-arrow-down" ||
-                but[0] === "fas fa-arrow-down"
-              ) {
-                setBut([
-                  `transition duration-[500ms] rotate-180 fas fa-arrow-down`,
-                  `transition-all duration-[500ms] block`,
-                ]);
-              } else {
-                setBut([
-                  `transition duration-[500ms] fas fa-arrow-down`,
-                  `transition-all duration-[500ms] hidden`,
-                ]);
-              }
-            }}
-          ></i>
-          <div className={answerStyle}>{props.answer}</div>
-        </div>
+      <div className={questionStyle}>
+        <p className="inline-block w-[80%]">{props.text} </p>
+        <i
+          className={iconStyle}
+          onClick={() => {
+            if (
+              but[0] === "transition duration-[500ms] fas fa-arrow-down" ||
+              but[0] === "fas fa-arrow-down"
+            ) {
+              setBut([
+                `transition duration-[500ms] rotate-180 fas fa-arrow-down`,
+                `transition-all duration-[500ms] block`,
+              ]);
+            } else {
+              setBut([
+                `transition duration-[500ms] fas fa-arrow-down`,
+                `transition-all duration-[500ms] hidden`,
+              ]);
+            }
+          }}
+        ></i>
+        <div className={answerStyle}>{props.answer}</div>
+      </div>
     </>
   );
 };
@@ -58,28 +58,30 @@ export const Footer = () => {
         </p>
         <img
           src="https://media.discordapp.net/attachments/834855883623235605/1262206388365693061/mecweb.png?ex=6697bb0d&is=6696698d&hm=d16da58028768c50458dd16ab3b0be93375109059e51dc31a219decc03f4105b&=&format=webp&quality=lossless&width=1359&height=770"
-          className="w-[15%] ml-[42.5%] macBookTwo:w-[20%] mackBookTwo:ml-[40%]"
+          className="w-[15%] macBookFin:w-[20%] ml-[42.5%] macBookTwo:w-[20%] mackBookTwo:ml-[40%]"
           alt="MecIcon"
         />
         <p>
           <img
             src="https://media.discordapp.net/attachments/834855883623235605/1262213374377332828/image.png?ex=6695c74f&is=669475cf&hm=95b1556ca8e5931b5ef737ae9795c040bf534a6c74b7d3e5182f7e78c27d7fd1&=&format=webp&quality=lossless&width=814&height=519"
-            className="z-10 h-[4%] macBook:h-[3.5%] macBookTwo:h-[5%] macBookTwo:ml-[40%] absolute inline ml-[44%] "
+            className="z-10 h-[4%] macBookFin:h-[3%] macBookFin:ml-[39%] macBook:h-[3.5%] macBookTwo:h-[5%] macBookTwo:ml-[40%] absolute inline ml-[44%] "
             alt="Join us on youtube "
           />
           <img
             src="https://media.discordapp.net/attachments/834855883623235605/1262213223755677746/image.png?ex=6695c72b&is=669475ab&hm=1b314ac20ba86db9d8c548ca1379b138769759748ed4659916badfb54e0e00b8&=&format=webp&quality=lossless&width=633&height=554"
-            className="h-[4%] macBook:h-[3.5%] macBookTwo:h-[5%] macBookTwo:ml-[47%] ml-[47.25%] absolute inline"
+            className="h-[4%] macBookFin:h-[3%] macBookFin:ml-[47%] macBook:h-[3.5%] macBookTwo:h-[5%] macBookTwo:ml-[47%] ml-[47.25%] absolute inline"
             alt="Join us on instagram "
           />
-          <img
-            src="https://media.discordapp.net/attachments/834855883623235605/1262213158622330952/image.png?ex=6695c71b&is=6694759b&hm=59fad40b8a8fb3bcafd8513c78f251f16e1a9daf2034bedfa75a5d83f3acae2f&=&format=webp&quality=lossless&width=655&height=506"
-            className="h-[4%] macBook:h-[3.5%] macBookTwo:h-[5%] ml-[50%] macBookTwo:ml-[53%] absolute inline"
-            alt="Join us on discord "
-          />
+          <a href="https://discord.gg/AjcAVctz" target="_blank">
+            <img
+              src="https://media.discordapp.net/attachments/834855883623235605/1262213158622330952/image.png?ex=6695c71b&is=6694759b&hm=59fad40b8a8fb3bcafd8513c78f251f16e1a9daf2034bedfa75a5d83f3acae2f&=&format=webp&quality=lossless&width=655&height=506"
+              className="h-[4%] macBookFin:h-[3%] macBookFin:ml-[53%] macBook:h-[3.5%] macBookTwo:h-[5%] ml-[50%] macBookTwo:ml-[53%] absolute inline"
+              alt="Join us on discord "
+            />
+          </a>
           <img
             src="https://media.discordapp.net/attachments/834855883623235605/1262213097230434375/image.png?ex=6695c70d&is=6694758d&hm=6744f8ba2d91f3511d7e6c5d9a8d8904ebe4a99441d6758dfb75f108dfe559df&=&format=webp&quality=lossless&width=642&height=536"
-            className="h-[4%] macBook:h-[3.5%] macBookTwo:h-[5%] ml-[53.5%] macBookTwo:ml-[60%] absolute inline"
+            className="h-[4%] macBookFin:h-[3%] macBookFin:ml-[60%] macBook:h-[3.5%] macBookTwo:h-[5%] ml-[53.5%] macBookTwo:ml-[60%] absolute inline"
             alt="Join us on twitter "
           />
         </p>
@@ -159,6 +161,7 @@ export const Navbar = (props: NavbarPropsType) => {
               <li>
                 <a
                   href="https://attend.ieee.org/r2sac-2020/wp-content/uploads/sites/175/2020/01/MicroMouse_Rules_2020.pdf"
+                  target="_blank"
                   className="block py-2 px-3 text-gray-900 rounded mt-2 hover:bg-gray-100 md:hover:bg-transparent transition duration-[500ms] md:hover:text-lightBlue md:p-0   dark:hover:bg-gray-700  md:dark:hover:bg-transparent dark:border-gray-700"
                 >
                   Rules
