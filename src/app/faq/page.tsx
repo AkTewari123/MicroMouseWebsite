@@ -69,7 +69,7 @@ export default function Faq() {
         className="text-sheetsGreen font-semibold decoration underline underline-offset-4 decoration-3 inline"
       >
         (to see an image of a sample maze, mice, and competition that is typical
-        for a micromouse competition click this link) <i className="fas fa-arrow-up rotate-45"></i>
+        for a micromouse competition click this link)<i className="fas fa-arrow-up rotate-45"></i>
       </a>{" "}
       are programmed to automonomously complete a 10 foot by 10 foot maze. This
       micromouse competition, along with MEC, is sanctioned by {"  "}
