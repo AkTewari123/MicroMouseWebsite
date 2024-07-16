@@ -25,16 +25,15 @@ export default function Faq() {
       </a>
       {"  "}
       that has a list of interested applicants (and their contact information).
-      You can use this to form a team.
-      You can use this {"    "}
+      You can use this to form a team. You can use this {"    "}
       <a
-        href="https://docs.google.com/spreadsheets/d/1j_LK_1VGpp5ze8Arpm92Ydofv1EeV8OQGTbGoaEW_qA/edit?gid=1955226837#gid=1955226837"
+        href="https://forms.gle/Wsx3Uwg72sxRLsCC8"
         target="_blank"
         className="text-formPurp font-semibold decoration underline underline-offset-4 decoration-3 inline"
       >
         Google Form <i className="fas fa-arrow-up rotate-45"></i>
       </a>
-      {"  "} to submit your information to this sheet. 
+      {"  "} to submit your information to this sheet.
     </>
   );
   const TeamAnswerTwo = (
@@ -69,7 +68,8 @@ export default function Faq() {
         className="text-sheetsGreen font-semibold decoration underline underline-offset-4 decoration-3 inline"
       >
         (to see an image of a sample maze, mice, and competition that is typical
-        for a micromouse competition click this link)<i className="fas fa-arrow-up rotate-45"></i>
+        for a micromouse competition click this link)
+        <i className="fas fa-arrow-up rotate-45"></i>
       </a>{" "}
       are programmed to automonomously complete a 10 foot by 10 foot maze. This
       micromouse competition, along with MEC, is sanctioned by {"  "}
@@ -100,34 +100,55 @@ export default function Faq() {
   );
   const TeamAnswerSeven = (
     <>
-      Don't procrastinate! There is plenty of time to make a mouse for this competition, 
-      and that's for a purpose. In addition, we reccommend that you spend a lot of time and 
-      effort into making a robot that can complete this task quickly.
-      To add on, doing trial runs would get you prepared. Finally, there will be a lot of 
-      setbacks in making this mouse, so we reccomend you be patient, and dilligent as you and 
-      your team are in this together for the long run. Visit {"  "}
+      Don't procrastinate! There is plenty of time to make a mouse for this
+      competition, and that's for a purpose. In addition, we reccommend that you
+      spend a lot of time and effort into making a robot that can complete this
+      task quickly. To add on, doing trial runs would get you prepared. Finally,
+      there will be a lot of setbacks in making this mouse, so we reccomend you
+      be patient, and dilligent as you and your team are in this together for
+      the long run. Visit {"  "}
       <a
         href="https://projects.ieeebruins.com/micromouse/q-and-a"
         target="_blank"
         className="text-ieeeGreen font-semibold decoration underline underline-offset-4 decoration-3 inline"
       >
         this page <i className="fas fa-arrow-up rotate-45"></i>
-      </a>{" "} for more information.
+      </a>{" "}
+      for more information.
     </>
   );
   const TeamAnswerSix = (
     <>
-      It may cost <b className="text-green-500 decoration underline underline-offset-4">$100-$150</b> to make a
-      Micromouse. Here are all the items necessary to make one:
-      <ol className = "ml-4">
-        <li className = "py-2"><b>1.</b>   Arduino Mega2560</li>
-        <li className = "py-2"><b>2.</b>   Four Infrared sensors (Obstacle avoidance)</li>
-        <li className = "py-2"><b>3.</b>   Motor driver Hbridge</li>
-        <li className = "py-2"><b>4.</b>   Two Ultrasonic sensors </li>
-        <li className = "py-2"><b>5.</b>   Jumbo wires</li>
-        <li className = "py-2"><b>6.</b>   heat shrink</li>
-        <li className = "py-2"><b>7.</b>   2WD miniq robot car chassis</li>
-        <li className = "py-2"><b>8.</b>   Two DC motors with encoders</li>
+      It may cost{" "}
+      <b className="text-green-500 decoration underline underline-offset-4">
+        $100-$150
+      </b>{" "}
+      to make a Micromouse. Here are all the items necessary to make one:
+      <ol className="ml-4">
+        <li className="py-2">
+          <b>1.</b> Arduino Mega2560
+        </li>
+        <li className="py-2">
+          <b>2.</b> Four Infrared sensors (Obstacle avoidance)
+        </li>
+        <li className="py-2">
+          <b>3.</b> Motor driver Hbridge
+        </li>
+        <li className="py-2">
+          <b>4.</b> Two Ultrasonic sensors{" "}
+        </li>
+        <li className="py-2">
+          <b>5.</b> Jumbo wires
+        </li>
+        <li className="py-2">
+          <b>6.</b> heat shrink
+        </li>
+        <li className="py-2">
+          <b>7.</b> 2WD miniq robot car chassis
+        </li>
+        <li className="py-2">
+          <b>8.</b> Two DC motors with encoders
+        </li>
       </ol>
       All information from the list above was taken from {"   "}
       <a
@@ -135,16 +156,18 @@ export default function Faq() {
         target="_blank"
         className="text-autodeskYellow font-semibold decoration underline underline-offset-4 decoration-3 inline"
       >
-          this website <i className="fas fa-arrow-up rotate-45"></i>
+        this website <i className="fas fa-arrow-up rotate-45"></i>
       </a>
-      . If you need any other technical information, you can reach out to the staff on the   {"  "}    
+      . If you need any other technical information, you can reach out to the
+      staff on the {"  "}
       <a
         href="https://discord.gg/AjcAVctz"
         target="_blank"
         className="text-discordPurp font-semibold decoration underline underline-offset-4 decoration-3 inline"
       >
         Discord Server <i className="fas fa-arrow-up rotate-45"></i>
-      </a>{" "}, but the best way is to use the internet to get what you need. 
+      </a>{" "}
+      , but the best way is to use the internet to get what you need.
     </>
   );
   const TeamAnswerFive = (
@@ -166,12 +189,12 @@ export default function Faq() {
       />
       <div className=" flex flex-col items-start p-6 h-auto bg-lightBlue w-full">
         <h1
-          className={`${phosphate.variable} font-sans text-6xl text-white text-center mt-8 questionScreen:mb-0 questionScreen: w-[90%] questionScreen: ml-[5%]`}
+          className={`${phosphate.variable} laptop:text-left font-sans text-6xl text-white text-center mt-8 remyScreen:mb-0 remyScreen: w-[90%] remyScreen:ml-[5%]`}
         >
           FREQUENTLY ASKED QUESTIONS
         </h1>
         <br></br>
-        <p className="inline text-lg font-['Outfit'] leading-relaxed text-white w-[80%] questionScreen:ml-[10%] questionScreen:text-center">
+        <p className="inline-block text-lg font-['Outfit'] leading-relaxed text-white w-[80%] remyScreen:ml-[10%] remyScreen:text-center">
           At MEC, we have always believed that nothing is more precious than
           kindling a love for STEM amongst middle and high school students.
           That's why we present to you the micromouse program: an
@@ -180,39 +203,39 @@ export default function Faq() {
           is done through working in teams to develop innovative strategies that
           enable them to program a minature robot that can move independently
           from one point of a labyrinth to the other.
-          
         </p>
 
         <img
-          src="https://media.discordapp.net/attachments/950950901957402675/1262232987936886824/GkAAAAASUVORK5CYII.png?ex=66968253&is=669530d3&hm=2915aa45b4216f764cf97fe9ff7454cdda6f0cb9e3c319ed9e18317c86cd509f&=&format=webp&quality=lossless&width=1512&height=1422"
-          className="h-[300px] float-right ml-[70%] mt-[1%] absolute questionScreen:hidden"
-          alt="MEC Logo"
-           />
-
-        
+          src="https://media.discordapp.net/attachments/834855883623235605/1262190526006820945/GkAAAAASUVORK5CYII.png?ex=6697ac47&is=66965ac7&hm=ba8f1993d96f0476047b090128072c187b659e123f5dda1b1d0741eaef903f56&=&format=webp&quality=lossless&width=1113&height=1047"
+          className="h-[25%] float-right ml-[80%] m-[1%] absolute remyScreen:hidden"
+          alt="Rover Logo"
+        />
       </div>
-            <Question text="How do I get a team?" answer={TeamAnswerOne} />
-            <Question
-              text="I don't know how to build a Micromouse, where can I learn?"
-              answer={TeamAnswerTwo}
-            />
-            <Question text="Can you give me more details for this event?" answer={TeamAnswerThree} />
-            <Question
-              text="I'm in college, can I still participate?"
-              answer={TeamAnswerFour}
-            />
-            <Question
-              text="How much time should I expect to spend on making a micromouse, if it's my first time?"
-              answer={TeamAnswerFive}
-            />
-            <Question
-              text="How much does it cost to make a mouse from scratch? What do I need to make one? "
-              answer={TeamAnswerSix}
-            />
-            <Question
-              text="Is there any other advice that you can give me? "
-              answer={TeamAnswerSeven}
-            />
+      <Question text="How do I get a team?" answer={TeamAnswerOne} />
+      <Question
+        text="I don't know how to build a Micromouse, where can I learn?"
+        answer={TeamAnswerTwo}
+      />
+      <Question
+        text="Can you give me more details for this event?"
+        answer={TeamAnswerThree}
+      />
+      <Question
+        text="I'm in college, can I still participate?"
+        answer={TeamAnswerFour}
+      />
+      <Question
+        text="How much time should I expect to spend on making a micromouse, if it's my first time?"
+        answer={TeamAnswerFive}
+      />
+      <Question
+        text="How much does it cost to make a mouse from scratch? What do I need to make one? "
+        answer={TeamAnswerSix}
+      />
+      <Question
+        text="Is there any other advice that you can give me? "
+        answer={TeamAnswerSeven}
+      />
 
       <Footer />
     </>

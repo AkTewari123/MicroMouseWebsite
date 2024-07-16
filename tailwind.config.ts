@@ -16,9 +16,12 @@ const config: Config = {
       screens: {
         '2xl': {'max': '1535px'},
         // => @media (max-width: 1535px) { ... }
-  
-        'laptop': {'min': '1000px'},
-        'questionScreen': {"max": "1000px"},
+        'partTwoScreen': {'max': '1200px'},
+        'partTwoScreenTwo': {'max': '1000px'},
+        'partTwoScreenThree': {'max': '900px'},
+        'laptop': {'min': '1000px'}, 
+        'remyScreen': {"max": "1100px"},
+        'questionScreen': {"max": "800px"},
         'tablet': {'min': '800px', 'max': '999px'},
 
         'smtablet': {'min': '600px', 'max': '799px'},

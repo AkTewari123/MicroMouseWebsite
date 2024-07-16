@@ -21,9 +21,8 @@ export const Question = (props: QuestionPropsType) => {
   const answerStyle = `font-normal text-[1rem] ${but[1]} mt-[5%]`;
   return (
     <>
-      <div>
         <div className={questionStyle}>
-          {props.text}{" "}
+          <p className = "inline-block w-[80%]">{props.text}{" "}</p>
           <i
             className={iconStyle}
             onClick={() => {
@@ -45,7 +44,6 @@ export const Question = (props: QuestionPropsType) => {
           ></i>
           <div className={answerStyle}>{props.answer}</div>
         </div>
-      </div>
     </>
   );
 };
@@ -59,7 +57,7 @@ export const Footer = () => {
           and would like to see you at the competition!
         </p>
         <img
-          src="https://media.discordapp.net/attachments/834855883623235605/1262206388365693061/mecweb.png?ex=6695c0cd&is=66946f4d&hm=ec1aa4a9fe441b42ce409d1711771ff7e018fbdaa94a60e2ed32eeb039707e9b&=&format=webp&quality=lossless&width=1359&height=770"
+          src="https://media.discordapp.net/attachments/834855883623235605/1262206388365693061/mecweb.png?ex=6697bb0d&is=6696698d&hm=d16da58028768c50458dd16ab3b0be93375109059e51dc31a219decc03f4105b&=&format=webp&quality=lossless&width=1359&height=770"
           className="w-[120px] ml-[45%]"
           alt="MecIcon"
         />
@@ -103,9 +101,9 @@ export const Navbar = (props: NavbarPropsType) => {
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
             <img
-              src="https://media.discordapp.net/attachments/834855883623235605/1262149280454541312/wEqE3sbksPlmgAAAABJRU5ErkJggg.png?ex=6696345e&is=6694e2de&hm=c6fad1097c4435e849587d79456447c8c92f0960034a1a65a18df95695faad1f&=&format=webp&quality=lossless&width=1810&height=1038"
+              src="https://media.discordapp.net/attachments/834855883623235605/1262149280454541312/wEqE3sbksPlmgAAAABJRU5ErkJggg.png?ex=669785de&is=6696345e&hm=0957dd3af4876eb29b802c74bddfddc3a8a7c0a41646b976c419af9c49c4ab8d&=&format=webp&quality=lossless&width=1210&height=693"
               className="h-[70px]"
-              alt="Flowbite Logo"
+              alt="Mec Logo"
             />
           </a>
           <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
@@ -119,7 +117,7 @@ export const Navbar = (props: NavbarPropsType) => {
             </a>
             <p
               data-collapse-toggle="navbar-sticky"
-              className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden transition duration-[500ms] hover:bg-lightBlue focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-blue-500 dark:hover:bg-lightBlue dark:focus:ring-blue-700"
+              className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm rounded-lg md:hidden transition duration-[500ms] hover:bg-lightBlue focus:outline-none focus:ring-2 focus:ring-gray-200 hover:text-white text-black dark:focus:ring-blue-700"
               aria-controls="navbar-sticky"
               aria-expanded="false"
               onClick={() => {
