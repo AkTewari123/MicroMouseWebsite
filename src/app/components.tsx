@@ -26,7 +26,22 @@ export const Question = (props: QuestionPropsType) => {
           {props.text}{" "}
           <i
             className={iconStyle}
-            
+            onClick={() => {
+              if (
+                but[0] === "transition duration-[500ms] fas fa-arrow-down" ||
+                but[0] === "fas fa-arrow-down"
+              ) {
+                setBut([
+                  `transition duration-[500ms] rotate-180 fas fa-arrow-down`,
+                  `transition-all duration-[500ms] block`,
+                ]);
+              } else {
+                setBut([
+                  `transition duration-[500ms] fas fa-arrow-down`,
+                  `transition-all duration-[500ms] hidden`,
+                ]);
+              }
+            }}
           ></i>
           <div className={answerStyle}>{props.answer}</div>
         </div>
