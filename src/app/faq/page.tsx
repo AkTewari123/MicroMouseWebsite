@@ -166,12 +166,12 @@ export default function Faq() {
       />
       <div className=" flex flex-col items-start p-6 h-auto bg-lightBlue w-full">
         <h1
-          className={`${phosphate.variable} font-sans text-6xl text-white text-center mt-8 mb-5`}
+          className={`${phosphate.variable} font-sans text-6xl text-white text-center mt-8 questionScreen:mb-0 questionScreen: w-[90%] questionScreen: ml-[5%]`}
         >
           FREQUENTLY ASKED QUESTIONS
         </h1>
         <br></br>
-        <p className="inline text-lg font-['Outfit'] leading-relaxed text-white w-[70%]">
+        <p className="inline text-lg font-['Outfit'] leading-relaxed text-white w-[80%] questionScreen:ml-[10%] questionScreen:text-center">
           At MEC, we have always believed that nothing is more precious than
           kindling a love for STEM amongst middle and high school students.
           That's why we present to you the micromouse program: an
@@ -185,7 +185,7 @@ export default function Faq() {
 
         <img
           src="https://media.discordapp.net/attachments/950950901957402675/1262232987936886824/GkAAAAASUVORK5CYII.png?ex=66968253&is=669530d3&hm=2915aa45b4216f764cf97fe9ff7454cdda6f0cb9e3c319ed9e18317c86cd509f&=&format=webp&quality=lossless&width=1512&height=1422"
-          className="h-[300px] float-right ml-[70%] mt-[1%] absolute"
+          className="h-[300px] float-right ml-[70%] mt-[1%] absolute questionScreen:hidden"
           alt="MEC Logo"
            />
 
