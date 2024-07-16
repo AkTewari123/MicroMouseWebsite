@@ -69,7 +69,7 @@ export default function Faq() {
         className="text-sheetsGreen font-semibold decoration underline underline-offset-4 decoration-3 inline"
       >
         (to see an image of a sample maze, mice, and competition that is typical
-        for a micromouse competition)
+        for a micromouse competition click this link)
         <i className="fas fa-arrow-up rotate-45"></i>
       </a>{" "}
       are programmed to automonomously complete a 10 foot by 10 foot maze. This
@@ -197,7 +197,7 @@ export default function Faq() {
               text="I don't know how to build a Micromouse, where can I learn?"
               answer={TeamAnswerTwo}
             />
-            <Question text="How do I get a team?" answer={TeamAnswerOne} />
+            <Question text="Can you give me more details for this event?" answer={TeamAnswerThree} />
             <Question
               text="I'm in college, can I still participate?"
               answer={TeamAnswerFour}

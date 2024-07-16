@@ -18,7 +18,7 @@ const config: Config = {
         // => @media (max-width: 1535px) { ... }
   
         'laptop': {'min': '1000px'},
-  
+        'questionScreen': {"max": "1000px"},
         'tablet': {'min': '800px', 'max': '999px'},
 
         'smtablet': {'min': '600px', 'max': '799px'},
