@@ -192,9 +192,6 @@ export default function Faq() {
 
         
       </div>
-      <div>
-        <ol>
-          <li>
             <Question text="How do I get a team?" answer={TeamAnswerOne} />
             <Question
               text="I don't know how to build a Micromouse, where can I learn?"
@@ -217,7 +214,7 @@ export default function Faq() {
               text="Is there any other advice that you can give me? "
               answer={TeamAnswerSeven}
             />
-      </div>
+
       <Footer />
     </>
   );
