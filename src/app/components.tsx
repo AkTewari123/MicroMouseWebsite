@@ -58,28 +58,28 @@ export const Footer = () => {
         </p>
         <img
           src="https://media.discordapp.net/attachments/834855883623235605/1262206388365693061/mecweb.png?ex=6697bb0d&is=6696698d&hm=d16da58028768c50458dd16ab3b0be93375109059e51dc31a219decc03f4105b&=&format=webp&quality=lossless&width=1359&height=770"
-          className="w-[120px] ml-[45%]"
+          className="w-[15%] ml-[42.5%] macBookTwo:w-[20%] mackBookTwo:ml-[40%]"
           alt="MecIcon"
         />
         <p>
           <img
             src="https://media.discordapp.net/attachments/834855883623235605/1262213374377332828/image.png?ex=6695c74f&is=669475cf&hm=95b1556ca8e5931b5ef737ae9795c040bf534a6c74b7d3e5182f7e78c27d7fd1&=&format=webp&quality=lossless&width=814&height=519"
-            className="h-[30px] inline ml-[44%] "
+            className="z-10 h-[4%] macBook:h-[3.5%] macBookTwo:h-[5%] macBookTwo:ml-[40%] absolute inline ml-[44%] "
             alt="Join us on youtube "
           />
           <img
             src="https://media.discordapp.net/attachments/834855883623235605/1262213223755677746/image.png?ex=6695c72b&is=669475ab&hm=1b314ac20ba86db9d8c548ca1379b138769759748ed4659916badfb54e0e00b8&=&format=webp&quality=lossless&width=633&height=554"
-            className="h-[30px] inline"
+            className="h-[4%] macBook:h-[3.5%] macBookTwo:h-[5%] macBookTwo:ml-[47%] ml-[47.25%] absolute inline"
             alt="Join us on instagram "
           />
           <img
             src="https://media.discordapp.net/attachments/834855883623235605/1262213158622330952/image.png?ex=6695c71b&is=6694759b&hm=59fad40b8a8fb3bcafd8513c78f251f16e1a9daf2034bedfa75a5d83f3acae2f&=&format=webp&quality=lossless&width=655&height=506"
-            className="h-[30px] inline"
+            className="h-[4%] macBook:h-[3.5%] macBookTwo:h-[5%] ml-[50%] macBookTwo:ml-[53%] absolute inline"
             alt="Join us on discord "
           />
           <img
             src="https://media.discordapp.net/attachments/834855883623235605/1262213097230434375/image.png?ex=6695c70d&is=6694758d&hm=6744f8ba2d91f3511d7e6c5d9a8d8904ebe4a99441d6758dfb75f108dfe559df&=&format=webp&quality=lossless&width=642&height=536"
-            className="h-[30px] inline"
+            className="h-[4%] macBook:h-[3.5%] macBookTwo:h-[5%] ml-[53.5%] macBookTwo:ml-[60%] absolute inline"
             alt="Join us on twitter "
           />
         </p>
@@ -110,7 +110,7 @@ export const Navbar = (props: NavbarPropsType) => {
             <a href="https://www.remove.bg/" target="_blank">
               <button
                 type="button"
-                className="text-white bg-lightBlue transition duration-[500ms] text-[100%] hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full px-6 py-1 text-center "
+                className="text-white bg-lightBlue text-[100%] transition-all duration-[700ms] hover:bg-discordPurp focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full px-6 py-1 text-center "
               >
                 Register
               </button>

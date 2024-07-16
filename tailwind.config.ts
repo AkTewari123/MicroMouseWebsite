@@ -18,6 +18,8 @@ const config: Config = {
         // => @media (max-width: 1535px) { ... }
         'partTwoScreen': {'max': '1200px'},
         'partTwoScreenTwo': {'max': '1000px'},
+        'macBook': {'max':'1550px', 'min':'1250px'},
+        'macBookTwo': {'max':'1250px', 'min':'900px'},
         'partTwoScreenThree': {'max': '900px'},
         'laptop': {'min': '1000px'}, 
         'remyScreen': {"max": "1100px"},
