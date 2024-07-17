@@ -169,7 +169,7 @@ export const Navbar = (props: NavbarPropsType) => {
               </li>
               <li>
                 <a href="/faq" className={faqStyle}>
-                  FAQ
+                  Resources
                 </a>
               </li>
             </ul>

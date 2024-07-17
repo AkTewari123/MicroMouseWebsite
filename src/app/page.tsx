@@ -64,7 +64,7 @@ export default function Home() {
           </div>
           <div className="md:w-1/2">
             <img
-              src="https://media.discordapp.net/attachments/834855883623235605/1262800608033902692/image.png?ex=6697ea36&is=669698b6&hm=7d83d17e00a599127cc9cfac19a63389ac0bbda84c494bd20b764e20c3c41f0a&=&format=webp&quality=lossless&width=1133&height=770"
+              src="https://media.discordapp.net/attachments/834855883623235605/1262800608033902692/image.png?ex=66993bb6&is=6697ea36&hm=081a1059c37aad918154fa1fd172c07139da2cd030b14d76deb55b89c0db55e0&=&format=webp&quality=lossless&width=1537&height=1047"
               alt="Venue Image"
               className=""
             />
@@ -91,7 +91,7 @@ export default function Home() {
           </div>
           <div className="md:w-1/2">
             <img
-              src="https://media.discordapp.net/attachments/834855883623235605/1262801150835429488/image.png?ex=6697eab8&is=66969938&hm=e470bbe8452171d5ed8e5a80971b16299064ca93a6b5020cbd00abbe869f7cb9&=&format=webp&quality=lossless&width=1093&height=770"
+              src="https://media.discordapp.net/attachments/834855883623235605/1262801150835429488/image.png?ex=66993c38&is=6697eab8&hm=88c22503856a7439e451aa0b4f3e92cd44248a6144b9359e201f00797bffa968&=&format=webp&quality=lossless&width=1489&height=1047"
               className="z-10"
             />
           </div>
