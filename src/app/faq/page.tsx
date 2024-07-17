@@ -206,7 +206,7 @@ export default function Faq() {
         </p>
 
         <img
-          src="https://media.discordapp.net/attachments/834855883623235605/1262190526006820945/GkAAAAASUVORK5CYII.png?ex=6697ac47&is=66965ac7&hm=ba8f1993d96f0476047b090128072c187b659e123f5dda1b1d0741eaef903f56&=&format=webp&quality=lossless&width=1113&height=1047"
+          src="https://media.discordapp.net/attachments/834855883623235605/1262190526006820945/GkAAAAASUVORK5CYII.png?ex=6698fdc7&is=6697ac47&hm=b6add6e7554fef6441c8d39340c19f877647e3bbe3ef7cf37906f6c03ec2afcc&=&format=webp&quality=lossless&width=1113&height=1047"
           className="h-[25%] float-right ml-[80%] m-[1%] absolute remyScreen:hidden"
           alt="Rover Logo"
         />

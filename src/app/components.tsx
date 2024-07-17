@@ -57,30 +57,30 @@ export const Footer = () => {
           and would like to see you at the competition!
         </p>
         <img
-          src="https://media.discordapp.net/attachments/834855883623235605/1262206388365693061/mecweb.png?ex=6697bb0d&is=6696698d&hm=d16da58028768c50458dd16ab3b0be93375109059e51dc31a219decc03f4105b&=&format=webp&quality=lossless&width=1359&height=770"
+          src="https://media.discordapp.net/attachments/834855883623235605/1262206388365693061/mecweb.png?ex=66990c8d&is=6697bb0d&hm=85bb70fb7a60ef1f2c9301df700c0de83d3b0c8ca0b06344ee775eacc7717c75&=&format=webp&quality=lossless&width=1359&height=770"
           className="w-[15%] macBookFin:w-[20%] ml-[42.5%] macBookTwo:w-[20%] mackBookTwo:ml-[40%]"
           alt="MecIcon"
         />
         <p>
           <img
-            src="https://media.discordapp.net/attachments/834855883623235605/1262213374377332828/image.png?ex=6695c74f&is=669475cf&hm=95b1556ca8e5931b5ef737ae9795c040bf534a6c74b7d3e5182f7e78c27d7fd1&=&format=webp&quality=lossless&width=814&height=519"
+            src="https://media.discordapp.net/attachments/834855883623235605/1262213374377332828/image.png?ex=6699130f&is=6697c18f&hm=7563438498972aa88f2710f4bfb90e4cb1f60005c7eae9a5aa4e4abde37c9a36&=&format=webp&quality=lossless&width=814&height=519"
             className="z-10 h-[4%] macBookFin:h-[3%] macBookFin:ml-[39%] macBook:h-[3.5%] macBookTwo:h-[5%] macBookTwo:ml-[40%] absolute inline ml-[44%] "
             alt="Join us on youtube "
           />
           <img
-            src="https://media.discordapp.net/attachments/834855883623235605/1262213223755677746/image.png?ex=6695c72b&is=669475ab&hm=1b314ac20ba86db9d8c548ca1379b138769759748ed4659916badfb54e0e00b8&=&format=webp&quality=lossless&width=633&height=554"
+            src="https://media.discordapp.net/attachments/834855883623235605/1262213223755677746/image.png?ex=669912eb&is=6697c16b&hm=db74dd97976b1860b9cb30e9ff6808146300e7c6b911d141840ea62f9a2fa31d&=&format=webp&quality=lossless&width=633&height=554"
             className="h-[4%] macBookFin:h-[3%] macBookFin:ml-[47%] macBook:h-[3.5%] macBookTwo:h-[5%] macBookTwo:ml-[47%] ml-[47.25%] absolute inline"
             alt="Join us on instagram "
           />
           <a href="https://discord.gg/AjcAVctz" target="_blank">
             <img
-              src="https://media.discordapp.net/attachments/834855883623235605/1262213158622330952/image.png?ex=6695c71b&is=6694759b&hm=59fad40b8a8fb3bcafd8513c78f251f16e1a9daf2034bedfa75a5d83f3acae2f&=&format=webp&quality=lossless&width=655&height=506"
+              src="https://media.discordapp.net/attachments/834855883623235605/1262213158622330952/image.png?ex=669912db&is=6697c15b&hm=90da63b1e555dc423bf7bccd1f983326344c024ac825ea3fd5ddf2e4b64a6197&=&format=webp&quality=lossless&width=655&height=506"
               className="h-[4%] macBookFin:h-[3%] macBookFin:ml-[53%] macBook:h-[3.5%] macBookTwo:h-[5%] ml-[50%] macBookTwo:ml-[53%] absolute inline"
               alt="Join us on discord "
             />
           </a>
           <img
-            src="https://media.discordapp.net/attachments/834855883623235605/1262213097230434375/image.png?ex=6695c70d&is=6694758d&hm=6744f8ba2d91f3511d7e6c5d9a8d8904ebe4a99441d6758dfb75f108dfe559df&=&format=webp&quality=lossless&width=642&height=536"
+            src="https://media.discordapp.net/attachments/834855883623235605/1262213097230434375/image.png?ex=669912cd&is=6697c14d&hm=597228793cc3eb4c847e1d2405654f40eaec5764721bc1cbf5fda32740f0746c&=&format=webp&quality=lossless&width=642&height=536"
             className="h-[4%] macBookFin:h-[3%] macBookFin:ml-[60%] macBook:h-[3.5%] macBookTwo:h-[5%] ml-[53.5%] macBookTwo:ml-[60%] absolute inline"
             alt="Join us on twitter "
           />
@@ -103,7 +103,7 @@ export const Navbar = (props: NavbarPropsType) => {
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
             <img
-              src="https://media.discordapp.net/attachments/834855883623235605/1262149280454541312/wEqE3sbksPlmgAAAABJRU5ErkJggg.png?ex=669785de&is=6696345e&hm=0957dd3af4876eb29b802c74bddfddc3a8a7c0a41646b976c419af9c49c4ab8d&=&format=webp&quality=lossless&width=1210&height=693"
+              src="https://media.discordapp.net/attachments/834855883623235605/1262149280454541312/wEqE3sbksPlmgAAAABJRU5ErkJggg.png?ex=6698d75e&is=669785de&hm=e1e5259101c841a44289009f36442d53d8d492e2fe3e06511f0af2fa7d409896&=&format=webp&quality=lossless&width=1823&height=1045"
               className="h-[70px]"
               alt="Mec Logo"
             />
