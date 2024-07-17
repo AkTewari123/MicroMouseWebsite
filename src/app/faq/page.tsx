@@ -187,7 +187,7 @@ export default function Faq() {
         aboutCol="text-black"
         faqCol="text-lightBlue underline underline-offset-8"
       />
-      <div className=" flex flex-col items-start p-6 h-auto bg-lightBlue w-full">
+      <div className=" flex flex-col items-start px-16 py-16 h-auto bg-lightBlue w-full">
         <h1
           className={`${phosphate.variable} laptop:text-left font-sans text-6xl text-white text-center mt-8 remyScreen:mb-0 remyScreen: w-[90%] remyScreen:ml-[5%]`}
         >

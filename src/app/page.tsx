@@ -36,11 +36,15 @@ export default function Home() {
           <br />
           Are you up for the challenge?
         </div>
-        <h1 className="text-5xl text-center mb-10">YES!</h1>
-        <h1 className="text-7xl hover:text-lightBlue ease-in duration-300 animate-bounce">
+        <a href="#section2" className="flex flex-col items-center justify-center">
+          <h1 className="text-5xl text-center mb-10">YES!</h1>
+          <h1 className="text-7xl hover:text-lightBlue ease-in duration-300 animate-bounce">
           <AiOutlineDown />
-        </h1>
+          </h1>
+        </a>
       </div>
+
+      <div className="py-20" id="section2"></div>
 
       <div className="flex flex-col gap-10 mb-10 px-10">
         {/* Venue Section */}

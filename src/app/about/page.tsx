@@ -32,42 +32,42 @@ export default function About() {
             further learning should be based.
           </p>
         </div>
-        <div className="px-16">
+        <div className="px-10">
           <h1
             className={`${phosphate.variable} font-sans text-6xl text-center mb-20`}
           >
             MEET THE TEAM
           </h1>
-          <div className="grid grid-cols-3 gap-[10rem]">
-            <div className="font-bold text-center">
-              <h1>Aditya Choudhary</h1>
-              <h1 className="text-[#5FC3E4]">Founder/Chief Organizer</h1>
+          <div className="flex flex-wrap items-center justify-center gap-[20rem]">
+            <div className="flex flex-col font-bold text-center justify-center items-center">
+              <h1 className="text-xl">Aditya Choudhary</h1>
+              <h1 className="text-[#5FC3E4] text-lg">Founder/Chief Organizer</h1>
             </div>
-            <div className="font-bold text-center">
-              <h1>Yash Kanda</h1>
-              <h1 className="text-[#5FC3E4]">Head of Location</h1>
+            <div className="flex flex-col font-bold text-center justify-center items-center">
+              <h1 className="text-xl">Yash Kanda</h1>
+              <h1 className="text-[#5FC3E4] text-lg">Head of Advertising</h1>
             </div>
-            <div className="font-bold text-center">
-              <h1>Saketh Satti</h1>
-              <h1 className="text-[#5FC3E4]">Head of Advertising</h1>
+            <div className="flex flex-col font-bold text-center justify-center items-center">
+              <h1 className="text-xl">Saketh Satti</h1>
+              <h1 className="text-[#5FC3E4] text-lg">Head of Location</h1>
             </div>
-            <div className="font-bold text-center">
+            <div className="flex flex-col font-bold text-center justify-center items-center">
             <img src="https://media.discordapp.net/attachments/834855883623235605/1262905953930444800/image.png?ex=66984c53&is=6696fad3&hm=5bc5134b6a5c3b666743ff2ca02939bb5577097e2cded5a264d40463ac7e077d&=&format=webp&quality=lossless&width=1108&height=1047"
-              className = "h-[100px] center ml-[25%] rounded-full block"></img>
-              <h1>Akshat Tewari</h1>
-              <h1 className="text-[#5FC3E4]">Head of Technology</h1>
+              className = "h-[200px] rounded-full block mb-5"></img>
+              <h1 className="text-xl">Akshat Tewari</h1>
+              <h1 className="text-[#5FC3E4] text-lg">Head of Technology</h1>
             </div>
             <div className="font-bold text-center">
             <img src="https://media.discordapp.net/attachments/834855883623235605/1262903157034324029/1705726481563.png?ex=669849b8&is=6696f838&hm=2138c3d209d1fc2400ea5acae9e1b787a337ed03fda28ef74c4d31069b4a0896&=&format=webp&quality=lossless&width=220&height=220"
-              className = "h-[100px] center ml-[25%] rounded-full block"></img>
-              <h1>Remy Mander</h1>
-              <h1 className="text-[#5FC3E4]">Head of Outreach</h1>
+              className = "h-[200px] center rounded-full block mb-5"></img>
+              <h1 className="text-xl">Remy Mander</h1>
+              <h1 className="text-[#5FC3E4] text-lg">Head of Outreach</h1>
             </div>
             <div className="font-bold text-center">
               <img src="https://media.discordapp.net/attachments/834855883623235605/1262903811312455770/image.png?ex=66984a54&is=6696f8d4&hm=5a8586f36d03709f9d0faa5903fc213a6456244e2e4cf5c2a3ea7f5a4b290b90&=&format=webp&quality=lossless&width=1049&height=1047"
-              className = "h-[100px] center ml-[25%] rounded-full block"></img>
-              <h1>Maria Huan</h1>
-              <h1 className="text-[#5FC3E4]">Head of Seminar</h1>
+              className = "h-[200px] center rounded-full block mb-5"></img>
+              <h1 className="text-xl">Maria Huan</h1>
+              <h1 className="text-[#5FC3E4] text-lg">Head of Seminar</h1>
             </div>
           </div>
         </div>
