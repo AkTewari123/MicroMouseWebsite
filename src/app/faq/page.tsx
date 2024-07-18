@@ -2,7 +2,7 @@ import { AiOutlineDown } from "react-icons/ai";
 import { Navbar, Footer, Question } from "../components";
 import { phosphate } from "../fonts";
 import "@fortawesome/fontawesome-free/css/all.min.css";
-
+import Image from 'next/image';
 export default function Faq() {
   const TeamAnswerOne = (
     <>
@@ -174,9 +174,17 @@ export default function Faq() {
     <>
       If this is your first time doing a STEM-intensive activity with a team, it
       may take 3-5 hours <b>per week</b> of solid work with a team. This may
-      take about <b>9 weeks</b> depending on your productivity. These weeks will be
-      spent troubleshooting, writing code, and tenaciously following the
+      take about <b>9 weeks</b> depending on your productivity. These weeks will
+      be spent troubleshooting, writing code, and tenaciously following the
       engineering design process.
+    </>
+  );
+  const TeamAnswerEight = (
+    <>
+      Right now, the price is{" "}
+      <b className="text-sheetsGreen">$50 per person.</b> However, this price
+      has the potential to go up to <b className="text-sheetsGreen">$70 per 
+        person.</b> Register now to get the best deal possible!
     </>
   );
   return (
@@ -205,12 +213,16 @@ export default function Faq() {
           from one point of a labyrinth to the other.
         </p>
 
-        <img
-          src="https://media.discordapp.net/attachments/834855883623235605/1262190526006820945/GkAAAAASUVORK5CYII.png?ex=669a4f47&is=6698fdc7&hm=77db6b0b67bf7fa9f37add0f273eaf27c775f2ae9476a95f5923771efb2193f6&=&format=webp&quality=lossless&width=1218&height=1146"
-          className="h-[25%] float-right ml-[80%] m-[1%] absolute remyScreen:hidden"
+        <Image
+        
+          src={"ric/../../public/rover.png"}
+          className="float-right ml-[80%] m-[1%] absolute remyScreen:hidden"
           alt="Rover Logo"
+          width={500}
+      height={500}
         />
       </div>
+      <Question text="What does pricing look like?" answer={TeamAnswerEight} />
       <Question text="How do I get a team?" answer={TeamAnswerOne} />
       <Question
         text="I don't know how to build a Micromouse, where can I learn?"

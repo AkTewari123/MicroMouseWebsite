@@ -109,7 +109,7 @@ export const Navbar = (props: NavbarPropsType) => {
             />
           </a>
           <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-            <a href="https://www.remove.bg/" target="_blank">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSd6NHgufAHAXpRwh9oC5GCiBpt3wNERa2NleFNJmTCrc2Ivqg/viewform" target="_blank">
               <button
                 type="button"
                 className="text-white bg-lightBlue text-[100%] transition-all duration-[700ms] hover:bg-discordPurp focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full px-6 py-1 text-center "
@@ -140,7 +140,7 @@ export const Navbar = (props: NavbarPropsType) => {
               >
                 <path
                   stroke="currentColor"
-                  stroke-linecap="round"
+                  strokeLinecap="round"
                   stroke-linejoin="round"
                   stroke-width="2"
                   d="M1 1h15M1 7h15M1 13h15"

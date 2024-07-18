@@ -3,9 +3,7 @@ import { AiOutlineDown } from "react-icons/ai";
 import { phosphate } from "./fonts";
 import * as React from "react";
 import { Navbar, Footer } from "./components";
-import Image from "next/image";
 import Head from "next/head";
-import { ImGithub } from "react-icons/im";
 
 export default function Home() {
   return (
