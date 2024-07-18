@@ -64,7 +64,7 @@ export default function Home() {
           </div>
           <div className="md:w-1/2">
             <img
-              src="https://media.discordapp.net/attachments/834855883623235605/1262800608033902692/image.png?ex=66993bb6&is=6697ea36&hm=081a1059c37aad918154fa1fd172c07139da2cd030b14d76deb55b89c0db55e0&=&format=webp&quality=lossless&width=1537&height=1047"
+              src="https://media.discordapp.net/attachments/834855883623235605/1262800608033902692/image.png?ex=669a8d36&is=66993bb6&hm=95c6f71076dab2a0fce444459e85a6d1d0c1b4141c0c4cb66c9479350832020b&=&format=webp&quality=lossless&width=1030&height=700"
               alt="Venue Image"
               className=""
             />

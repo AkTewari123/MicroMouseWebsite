@@ -52,19 +52,19 @@ export default function About() {
               <h1 className="text-[#5FC3E4] text-lg">Head of Location</h1>
             </div>
             <div className="flex flex-col font-bold text-center justify-center items-center">
-            <img src="https://media.discordapp.net/attachments/834855883623235605/1262905953930444800/image.png?ex=66984c53&is=6696fad3&hm=5bc5134b6a5c3b666743ff2ca02939bb5577097e2cded5a264d40463ac7e077d&=&format=webp&quality=lossless&width=1108&height=1047"
+            <img src="https://media.discordapp.net/attachments/834855883623235605/1262906608418291805/image.png?ex=669a472f&is=6698f5af&hm=39d26eb80216d52722b96bc75ddb8cc45ee78c54a9e786392305495be8c93517&=&format=webp&quality=lossless&width=1126&height=1146"
               className = "h-[200px] rounded-full block mb-5"></img>
               <h1 className="text-xl">Akshat Tewari</h1>
               <h1 className="text-[#5FC3E4] text-lg">Head of Technology</h1>
             </div>
             <div className="font-bold text-center">
-            <img src="https://media.discordapp.net/attachments/834855883623235605/1262903157034324029/1705726481563.png?ex=669849b8&is=6696f838&hm=2138c3d209d1fc2400ea5acae9e1b787a337ed03fda28ef74c4d31069b4a0896&=&format=webp&quality=lossless&width=220&height=220"
+            <img src="https://media.licdn.com/dms/image/D5603AQF1sYsvPpeR1w/profile-displayphoto-shrink_100_100/0/1705726481563?e=1726704000&v=beta&t=ulyTjpn0hDh7Bk01P0d6c4iizDTKNWIEhqUYFqjr_RQ"
               className = "h-[200px] center rounded-full block mb-5"></img>
               <h1 className="text-xl">Remy Mander</h1>
               <h1 className="text-[#5FC3E4] text-lg">Head of Outreach</h1>
             </div>
             <div className="font-bold text-center">
-              <img src="https://media.discordapp.net/attachments/834855883623235605/1262903811312455770/image.png?ex=66984a54&is=6696f8d4&hm=5a8586f36d03709f9d0faa5903fc213a6456244e2e4cf5c2a3ea7f5a4b290b90&=&format=webp&quality=lossless&width=1049&height=1047"
+              <img src="https://media.discordapp.net/attachments/834855883623235605/1262903811312455770/image.png?ex=669a4494&is=6698f314&hm=831bd1f31694e6fb97851f5b0b395910253ceacd1919e27559f9c3f67ef9f05d&=&format=webp&quality=lossless&width=702&height=700 "
               className = "h-[200px] center rounded-full block mb-5"></img>
               <h1 className="text-xl">Maria Huan</h1>
               <h1 className="text-[#5FC3E4] text-lg">Head of Seminar</h1>
