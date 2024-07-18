@@ -57,30 +57,30 @@ export const Footer = () => {
           and would like to see you at the competition!
         </p>
         <img
-          src="https://media.discordapp.net/attachments/834855883623235605/1262206388365693061/mecweb.png?ex=66990c8d&is=6697bb0d&hm=85bb70fb7a60ef1f2c9301df700c0de83d3b0c8ca0b06344ee775eacc7717c75&=&format=webp&quality=lossless&width=1359&height=770"
+          src="/whiteMecLogo.webp"
           className="w-[15%] macBookFin:w-[20%] ml-[42.5%] macBookTwo:w-[20%] mackBookTwo:ml-[40%]"
           alt="MecIcon"
         />
         <p>
           <img
-            src="https://media.discordapp.net/attachments/834855883623235605/1262213374377332828/image.png?ex=6699130f&is=6697c18f&hm=7563438498972aa88f2710f4bfb90e4cb1f60005c7eae9a5aa4e4abde37c9a36&=&format=webp&quality=lossless&width=814&height=519"
+            src="/twitter.webp"
             className="z-10 h-[4%] macBookFin:h-[3%] macBookFin:ml-[39%] macBook:h-[3.5%] macBookTwo:h-[5%] macBookTwo:ml-[40%] absolute inline ml-[44%] "
             alt="Join us on youtube "
           />
           <img
-            src="https://media.discordapp.net/attachments/834855883623235605/1262213223755677746/image.png?ex=669912eb&is=6697c16b&hm=db74dd97976b1860b9cb30e9ff6808146300e7c6b911d141840ea62f9a2fa31d&=&format=webp&quality=lossless&width=633&height=554"
+            src="/instagram.webp"
             className="h-[4%] macBookFin:h-[3%] macBookFin:ml-[47%] macBook:h-[3.5%] macBookTwo:h-[5%] macBookTwo:ml-[47%] ml-[47.25%] absolute inline"
             alt="Join us on instagram "
           />
           <a href="https://discord.gg/AjcAVctz" target="_blank">
             <img
-              src="https://media.discordapp.net/attachments/834855883623235605/1262213158622330952/image.png?ex=669912db&is=6697c15b&hm=90da63b1e555dc423bf7bccd1f983326344c024ac825ea3fd5ddf2e4b64a6197&=&format=webp&quality=lossless&width=655&height=506"
+              src="/discord.webp"
               className="h-[4%] macBookFin:h-[3%] macBookFin:ml-[53%] macBook:h-[3.5%] macBookTwo:h-[5%] ml-[50%] macBookTwo:ml-[53%] absolute inline"
               alt="Join us on discord "
             />
           </a>
           <img
-            src="https://media.discordapp.net/attachments/834855883623235605/1262213097230434375/image.png?ex=669912cd&is=6697c14d&hm=597228793cc3eb4c847e1d2405654f40eaec5764721bc1cbf5fda32740f0746c&=&format=webp&quality=lossless&width=642&height=536"
+            src="/youtube.webp"
             className="h-[4%] macBookFin:h-[3%] macBookFin:ml-[60%] macBook:h-[3.5%] macBookTwo:h-[5%] ml-[53.5%] macBookTwo:ml-[60%] absolute inline"
             alt="Join us on twitter "
           />
@@ -103,7 +103,7 @@ export const Navbar = (props: NavbarPropsType) => {
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
             <img
-              src="https://media.discordapp.net/attachments/834855883623235605/1262149280454541312/wEqE3sbksPlmgAAAABJRU5ErkJggg.png?ex=6698d75e&is=669785de&hm=e1e5259101c841a44289009f36442d53d8d492e2fe3e06511f0af2fa7d409896&=&format=webp&quality=lossless&width=1823&height=1045"
+              src="/greyMecLogo.webp"
               className="h-[70px]"
               alt="Mec Logo"
             />

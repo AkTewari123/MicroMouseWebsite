@@ -215,8 +215,8 @@ export default function Faq() {
 
         <Image
           src={"/rover.png"}
-          className="h-auto ml-[80%] m-[1%] absolute remyScreen:hidden"
-          alt="Rover Logo"
+          className="h-auto ml-[75%] absolute remyScreen:hidden"
+          alt="Rover Logo"  
           height={250}
           width={250}
         />
