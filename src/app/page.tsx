@@ -36,7 +36,7 @@ export default function Home() {
         </div>
         <a href="#section2" className="flex flex-col items-center justify-center">
           <h1 className="text-5xl text-center mb-10">YES!</h1>
-          <h1 className="text-7xl hover:text-lightBlue ease-in duration-300 animate-bounce">
+          <h1 className="text-7xl hover:text-lightBlue ease-in duration-300 motion-safe:animate-bounce">
           <AiOutlineDown />
           </h1>
         </a>
@@ -62,7 +62,7 @@ export default function Home() {
           </div>
           <div className="md:w-1/2">
             <img
-              src="https://media.discordapp.net/attachments/834855883623235605/1262800608033902692/image.png?ex=669a8d36&is=66993bb6&hm=95c6f71076dab2a0fce444459e85a6d1d0c1b4141c0c4cb66c9479350832020b&=&format=webp&quality=lossless&width=1030&height=700"
+              src="/venue.webp"
               alt="Venue Image"
               className=""
             />
@@ -89,7 +89,7 @@ export default function Home() {
           </div>
           <div className="md:w-1/2">
             <img
-              src="https://media.discordapp.net/attachments/834855883623235605/1262801150835429488/image.png?ex=66993c38&is=6697eab8&hm=88c22503856a7439e451aa0b4f3e92cd44248a6144b9359e201f00797bffa968&=&format=webp&quality=lossless&width=1489&height=1047"
+              src={"/impact.webp"}
               className="z-10"
             />
           </div>

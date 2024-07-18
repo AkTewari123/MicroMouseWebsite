@@ -214,12 +214,11 @@ export default function Faq() {
         </p>
 
         <Image
-        
-          src={"ric/../../public/rover.png"}
-          className="float-right ml-[80%] m-[1%] absolute remyScreen:hidden"
+          src={"/rover.png"}
+          className="h-auto ml-[80%] m-[1%] absolute remyScreen:hidden"
           alt="Rover Logo"
-          width={500}
-      height={500}
+          height={250}
+          width={250}
         />
       </div>
       <Question text="What does pricing look like?" answer={TeamAnswerEight} />
