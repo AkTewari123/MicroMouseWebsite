@@ -67,11 +67,13 @@ export const Footer = () => {
             className="z-10 h-[4%] macBookFin:h-[3%] macBookFin:ml-[39%] macBook:h-[3.5%] macBookTwo:h-[5%] macBookTwo:ml-[40%] absolute inline ml-[44%] "
             alt="Join us on youtube "
           />
-          <img
-            src="/instagram.webp"
-            className="h-[4%] macBookFin:h-[3%] macBookFin:ml-[47%] macBook:h-[3.5%] macBookTwo:h-[5%] macBookTwo:ml-[47%] ml-[47.25%] absolute inline"
-            alt="Join us on instagram "
-          />
+          <a href="https://www.instagram.com/mec_competition/" target="_blank">
+            <img
+              src="/instagram.webp"
+              className="h-[4%] macBookFin:h-[3%] macBookFin:ml-[47%] macBook:h-[3.5%] macBookTwo:h-[5%] macBookTwo:ml-[47%] ml-[47.25%] absolute inline"
+              alt="Join us on instagram "
+            />
+          </a>
           <a href="https://discord.gg/AjcAVctz" target="_blank">
             <img
               src="/discord.webp"
@@ -102,14 +104,13 @@ export const Navbar = (props: NavbarPropsType) => {
             href="/"
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
-            <img
-              src="/greyMecLogo.webp"
-              className="h-[70px]"
-              alt="Mec Logo"
-            />
+            <img src="/greyMecLogo.webp" className="h-[70px]" alt="Mec Logo" />
           </a>
           <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSd6NHgufAHAXpRwh9oC5GCiBpt3wNERa2NleFNJmTCrc2Ivqg/viewform" target="_blank">
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSd6NHgufAHAXpRwh9oC5GCiBpt3wNERa2NleFNJmTCrc2Ivqg/viewform"
+              target="_blank"
+            >
               <button
                 type="button"
                 className="text-white bg-lightBlue text-[100%] transition-all duration-[700ms] hover:bg-discordPurp focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full px-6 py-1 text-center "
