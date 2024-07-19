@@ -63,15 +63,15 @@ export const Footer = () => {
         />
         <p>
           <img
-            src="/twitter.webp"
+            src="/linkedin.png"
             className="z-10 h-[4%] macBookFin:h-[3%] macBookFin:ml-[39%] macBook:h-[3.5%] macBookTwo:h-[5%] macBookTwo:ml-[40%] absolute inline ml-[44%] "
-            alt="Join us on youtube "
+            alt="Join us on linkedin "
           />
           <a href="https://www.instagram.com/mec_competition/" target="_blank">
             <img
-              src="/instagram.webp"
+              src="/instagram.png"
               className="h-[4%] macBookFin:h-[3%] macBookFin:ml-[47%] macBook:h-[3.5%] macBookTwo:h-[5%] macBookTwo:ml-[47%] ml-[47.25%] absolute inline"
-              alt="Join us on instagram "
+              alt="Join us on Instagram "
             />
           </a>
           <a href="https://discord.gg/AjcAVctz" target="_blank">
@@ -84,7 +84,7 @@ export const Footer = () => {
           <img
             src="/youtube.webp"
             className="h-[4%] macBookFin:h-[3%] macBookFin:ml-[60%] macBook:h-[3.5%] macBookTwo:h-[5%] ml-[53.5%] macBookTwo:ml-[60%] absolute inline"
-            alt="Join us on twitter "
+            alt="Join us on youtube "
           />
         </p>
       </footer>
