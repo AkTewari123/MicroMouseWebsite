@@ -85,7 +85,7 @@ export const Footer = () => {
           <img
             src="/youtube.webp"
             className="h-[4%] macBookFin:h-[3%] macBookFin:ml-[60%] macBook:h-[3.5%] macBookTwo:h-[5%] ml-[53.5%] macBookTwo:ml-[60%] absolute inline"
-            alt="This is a helpful youtubevideo to get a head start! "
+            alt="This is a helpful YouTube video to get a head start! "
           />
           </a>
         </p>
