@@ -81,11 +81,13 @@ export const Footer = () => {
               alt="Join us on discord "
             />
           </a>
+          <a href = "https://www.youtube.com/watch?v=ZMQbHMgK2rw&t=81s" target = "_blank">
           <img
             src="/youtube.webp"
             className="h-[4%] macBookFin:h-[3%] macBookFin:ml-[60%] macBook:h-[3.5%] macBookTwo:h-[5%] ml-[53.5%] macBookTwo:ml-[60%] absolute inline"
-            alt="Join us on youtube "
+            alt="This is a helpful youtubevideo to get a head start! "
           />
+          </a>
         </p>
       </footer>
     </>
@@ -161,7 +163,7 @@ export const Navbar = (props: NavbarPropsType) => {
               </li>
               <li>
                 <a
-                  href="https://attend.ieee.org/r2sac-2020/wp-content/uploads/sites/175/2020/01/MicroMouse_Rules_2020.pdf"
+                  href="https://chocolate-morena-56.tiiny.site"
                   target="_blank"
                   className="block py-2 px-3 text-gray-900 rounded mt-2 hover:bg-gray-100 md:hover:bg-transparent transition duration-[500ms] md:hover:text-lightBlue md:p-0   dark:hover:bg-gray-700  md:dark:hover:bg-transparent dark:border-gray-700"
                 >
