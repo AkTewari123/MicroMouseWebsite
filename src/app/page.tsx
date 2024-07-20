@@ -53,11 +53,11 @@ export default function Home() {
                      bg-gradient-to-tr from-[#E55D76] to-[#5FC3E4]
                      inline-block text-transparent bg-clip-text mt-[10%]`}
             >
-              VENUE
+              VENUE & TIME
             </h1>
             <p className="text-[1.5rem] partTwoScreen:text-[125%] partTwoScreenTwo:text-[100%] mb-4">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              We will host our competition in a prestigous college in New Jersey! This competition will take place
+              in late November. We have no finalized a date yet.
             </p>
           </div>
           <div className="md:w-1/2">

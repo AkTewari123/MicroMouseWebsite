@@ -52,7 +52,7 @@ export default function About() {
               <h1 className="text-[#5FC3E4] text-lg">Head of Location</h1>
             </div>
             <div className="flex flex-col font-bold text-center justify-center items-center">
-            <img src="https://media.discordapp.net/attachments/834855883623235605/1262906608418291805/image.png?ex=669a472f&is=6698f5af&hm=39d26eb80216d52722b96bc75ddb8cc45ee78c54a9e786392305495be8c93517&=&format=webp&quality=lossless&width=1126&height=1146"
+            <img src="/akshat.webp"
               className = "h-[200px] rounded-full block mb-5"></img>
               <h1 className="text-xl">Akshat Tewari</h1>
               <h1 className="text-[#5FC3E4] text-lg">Head of Technology</h1>
@@ -64,7 +64,7 @@ export default function About() {
               <h1 className="text-[#5FC3E4] text-lg">Head of Outreach</h1>
             </div>
             <div className="font-bold text-center">
-              <img src="https://media.discordapp.net/attachments/834855883623235605/1262903811312455770/image.png?ex=669a4494&is=6698f314&hm=831bd1f31694e6fb97851f5b0b395910253ceacd1919e27559f9c3f67ef9f05d&=&format=webp&quality=lossless&width=702&height=700 "
+              <img src="/maria.webp"
               className = "h-[200px] center rounded-full block mb-5"></img>
               <h1 className="text-xl">Maria Huan</h1>
               <h1 className="text-[#5FC3E4] text-lg">Head of Seminar</h1>
