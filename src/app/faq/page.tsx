@@ -15,7 +15,7 @@ export default function Faq() {
         Discord <i className="fas fa-arrow-up rotate-45"></i>
       </a>
       {"  "}
-      and looking at the "resources" channel, you can see a {"    "}
+      and looking at the resources channel, you can see a {"    "}
       <a
         href="https://docs.google.com/spreadsheets/d/1j_LK_1VGpp5ze8Arpm92Ydofv1EeV8OQGTbGoaEW_qA/edit?gid=1955226837#gid=1955226837"
         target="_blank"
@@ -46,7 +46,7 @@ export default function Faq() {
       >
         Discord <i className="fas fa-arrow-up rotate-45"></i>
       </a>{" "}
-      has a "seminars" text channel. This channel will the details of an
+      has a seminars text channel. This channel will the details of an
       upcoming seminars, including the dates and professionals that will need
       these seminars. You can also use {"         "}
       <a
@@ -100,8 +100,8 @@ export default function Faq() {
   );
   const TeamAnswerSeven = (
     <>
-      Don't procrastinate! There is plenty of time to make a mouse for this
-      competition, and that's for a purpose. In addition, we reccommend that you
+      Don&apos;t procrastinate! There is plenty of time to make a mouse for this
+      competition, and that is for a purpose. In addition, we reccommend that you
       spend a lot of time and effort into making a robot that can complete this
       task quickly. To add on, doing trial runs would get you prepared. Finally,
       there will be a lot of setbacks in making this mouse, so we reccomend you
@@ -205,7 +205,7 @@ export default function Faq() {
         <p className="inline-block text-lg font-['Outfit'] leading-relaxed text-white w-[80%] remyScreen:ml-[10%] remyScreen:text-center">
           At MEC, we have always believed that nothing is more precious than
           kindling a love for STEM amongst middle and high school students.
-          That's why we present to you the micromouse program: an
+          That&apos;s why we present to you the micromouse program: an
           all-ecompassing, hands-on education project that allows students to
           explore their imaginations and creative problem-solving skills. This
           is done through working in teams to develop innovative strategies that

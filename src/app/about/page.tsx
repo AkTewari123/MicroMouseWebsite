@@ -18,7 +18,7 @@ export default function About() {
           <p className="text-lg macBookFin:text-[90%]">
             At MEC, we have always believed that nothing is more precious than
             kindling a love for STEM amongst middle and high school students.
-            That's why we present to you the micromouse program: an
+            That&apos;s why we present to you the micromouse program: an
             all-encompassing, hands-on education project that allows students to
             explore their imaginations and creative problem-solving skills. This
             is done through working in teams to develop innovative strategies
