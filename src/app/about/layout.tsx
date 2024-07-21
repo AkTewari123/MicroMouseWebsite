@@ -1,15 +1,15 @@
 import type { Metadata } from "next";
 import { Outfit } from "next/font/google";
-import "./globals.css";
+import "../globals.css";
 
 const outfit = Outfit({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Micromouse",
+  title: "Micromouse | About Page",
   description: "Micromouse Website",
 };
 
-export default function RootLayout({
+export default function AboutLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
