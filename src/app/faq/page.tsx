@@ -85,7 +85,7 @@ export default function Faq() {
   );
   const TeamAnswerFour = (
     <>
-      Unfortunately, this competition is available exclusively to 6-12 grade students.
+      Unfortunately, this competition is available exclusively to 6-12th grade students.
       However, {"  "}
       <a
         href="https://robotics.pages.tcnj.edu/"
