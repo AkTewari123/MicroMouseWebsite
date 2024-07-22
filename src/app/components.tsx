@@ -50,7 +50,10 @@ export const Question = (props: QuestionPropsType) => {
 export const Footer = () => {
   return (
     <>
-      <script src="https://unpkg.com/browse/ionicons@4.2.4/dist/fonts/" async></script>
+      <script
+        src="https://unpkg.com/browse/ionicons@4.2.4/dist/fonts/"
+        async
+      ></script>
       <footer className="bg-blackGood h-[300px]">
         <p className="text-white text-[15px] w-[60%] px-5 pb-5 pt-8 ml-[20%] text-center border-silverBord border-b-[2px]">
           Contact us with any questions you have! We hope you have a good day,
@@ -62,11 +65,13 @@ export const Footer = () => {
           alt="MecIcon"
         />
         <p>
-          <img
-            src="/linkedin.png"
-            className="z-10 h-[4%] macBookFin:h-[3%] macBookFin:ml-[39%] macBook:h-[3.5%] macBookTwo:h-[5%] macBookTwo:ml-[40%] absolute inline ml-[44%] "
-            alt="Join us on linkedin "
-          />
+          <a href="https://www.linkedin.com/company/nj-mec-competition">
+            <img
+              src="/linkedin.png"
+              className="z-10 h-[4%] macBookFin:h-[3%] macBookFin:ml-[39%] macBook:h-[3.5%] macBookTwo:h-[5%] macBookTwo:ml-[40%] absolute inline ml-[44%] "
+              alt="Join us on linkedin "
+            />
+          </a>
           <a href="https://www.instagram.com/mec_competition/" target="_blank">
             <img
               src="/instagram.png"
@@ -81,12 +86,15 @@ export const Footer = () => {
               alt="Join us on discord "
             />
           </a>
-          <a href = "https://www.youtube.com/watch?v=ZMQbHMgK2rw&t=81s" target = "_blank">
-          <img
-            src="/youtube.webp"
-            className="h-[4%] macBookFin:h-[3%] macBookFin:ml-[60%] macBook:h-[3.5%] macBookTwo:h-[5%] ml-[53.5%] macBookTwo:ml-[60%] absolute inline"
-            alt="This is a helpful YouTube video to get a head start! "
-          />
+          <a
+            href="https://www.youtube.com/watch?v=ZMQbHMgK2rw&t=81s"
+            target="_blank"
+          >
+            <img
+              src="/youtube.webp"
+              className="h-[4%] macBookFin:h-[3%] macBookFin:ml-[60%] macBook:h-[3.5%] macBookTwo:h-[5%] ml-[53.5%] macBookTwo:ml-[60%] absolute inline"
+              alt="This is a helpful YouTube video to get a head start! "
+            />
           </a>
         </p>
       </footer>
