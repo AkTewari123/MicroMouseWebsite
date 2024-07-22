@@ -58,7 +58,7 @@ export default function About() {
               <h1 className="text-[#5FC3E4] text-lg">Technology Lead</h1>
             </div>
             <div className="font-bold text-center">
-            <img src="https://media.licdn.com/dms/image/D5603AQF1sYsvPpeR1w/profile-displayphoto-shrink_100_100/0/1705726481563?e=1726704000&v=beta&t=ulyTjpn0hDh7Bk01P0d6c4iizDTKNWIEhqUYFqjr_RQ"
+            <img src="/remy.jpeg"
               className = "h-[200px] center rounded-full block mb-5"></img>
               <h1 className="text-xl">Remy Mander</h1>
               <h1 className="text-[#5FC3E4] text-lg">Advertising Lead</h1>
