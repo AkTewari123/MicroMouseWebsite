@@ -53,8 +53,8 @@ export const Footer = () => {
       <script src="https://unpkg.com/browse/ionicons@4.2.4/dist/fonts/" async></script>
       <footer className="bg-blackGood h-[300px]">
         <p className="text-white text-[15px] w-[60%] px-5 pb-5 pt-8 ml-[20%] text-center border-silverBord border-b-[2px]">
-          Contact us with any questions you have! We hope you have a good day
-          and would like to see you at the competition!
+          Contact us with any questions you have! We hope you have a good day,
+          and we would like to see you at the competition!
         </p>
         <img
           src="/whiteMecLogo.webp"

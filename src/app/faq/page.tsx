@@ -46,8 +46,8 @@ export default function Faq() {
       >
         Discord <i className="fas fa-arrow-up rotate-45"></i>
       </a>{" "}
-      has a seminars text channel. This channel will the details of an
-      upcoming seminars, including the dates and professionals that will need
+      has a seminars text channel. This channel will provide the details of any
+      upcoming seminars, including the dates and professionals that will lead
       these seminars. You can also use {"         "}
       <a
         href="https://www.youtube.com/playlist?list=PLE-BQwvVGf8HOvwXPgtDfWoxd4Cc6ghiP"
@@ -71,7 +71,7 @@ export default function Faq() {
         for a micromouse competition click this link)
         <i className="fas fa-arrow-up rotate-45"></i>
       </a>{" "}
-      are programmed to automonomously complete a 10 foot by 10 foot maze. This
+      are programmed to autonomously complete a 10 foot by 10 foot maze. This
       micromouse competition, along with MEC, is sanctioned by {"  "}
       <a
         href="https://drive.google.com/drive/folders/13Gqyx88dv3vA7_w2pK9YYdSOxhkDC985?usp=drive_link"
@@ -101,11 +101,11 @@ export default function Faq() {
   const TeamAnswerSeven = (
     <>
       Don&apos;t procrastinate! There is plenty of time to make a mouse for this
-      competition, and that is for a purpose. In addition, we reccommend that you
+      competition. In addition, we recommend that you
       spend a lot of time and effort into making a robot that can complete this
       task quickly. To add on, doing trial runs would get you prepared. Finally,
-      there will be a lot of setbacks in making this mouse, so we reccomend you
-      be patient, and dilligent as you and your team are in this together for
+      there will be a lot of setbacks in the making of this mouse, so we recommend you
+      be patient and diligent as you and your team are in this together for
       the long run. Visit {"  "}
       <a
         href="https://projects.ieeebruins.com/micromouse/q-and-a"
@@ -205,12 +205,12 @@ export default function Faq() {
         <p className="inline-block text-lg font-['Outfit'] leading-relaxed text-white w-[80%] remyScreen:ml-[10%] remyScreen:text-center">
           At MEC, we have always believed that nothing is more precious than
           kindling a love for STEM amongst middle and high school students.
-          That&apos;s why we present to you the micromouse program: an
-          all-ecompassing, hands-on education project that allows students to
+          That&apos;s why we present to you the Micromouse competition: an
+          all-encompassing, hands-on educational project that allows students to
           explore their imaginations and creative problem-solving skills. This
           is done through working in teams to develop innovative strategies that
-          enable them to program a minature robot that can move independently
-          from one point of a labyrinth to the other.
+          enable them to program a miniature robot that can move independently
+          from one point of a maze to the other.
         </p>
 
         <Image
@@ -236,11 +236,11 @@ export default function Faq() {
         answer={TeamAnswerFour}
       />
       <Question
-        text="How much time should I expect to spend on making a micromouse, if it's my first time?"
+        text="How much time will I spend making a Micromouse if it's my first time?"
         answer={TeamAnswerFive}
       />
       <Question
-        text="How much does it cost to make a mouse from scratch? What do I need to make one? "
+        text="How much does it cost to make a Micromouse from scratch? What do I need to make one? "
         answer={TeamAnswerSix}
       />
       <Question

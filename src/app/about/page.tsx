@@ -16,20 +16,14 @@ export default function About() {
             MISSION STATEMENT
           </h1>
           <p className="text-lg macBookFin:text-[90%]">
-            At MEC, we have always believed that nothing is more precious than
-            kindling a love for STEM amongst middle and high school students.
-            That&apos;s why we present to you the micromouse program: an
-            all-encompassing, hands-on education project that allows students to
-            explore their imaginations and creative problem-solving skills. This
-            is done through working in teams to develop innovative strategies
-            that enable them to program a miniature robot that can move
-            independently from one point of a labyrinth to the other. The thing
-            about Micromouse is not only does it make young people interested in
-            technology and engineering, but it also gives them the skills they
-            need in life. As they embark on this thrilling contest, they acquire
-            perseverance, teamwork as well as an enhanced understanding of the
-            STEM principles thus creating a foundation of knowledge upon which
-            further learning should be based.
+          At MEC, we have always believed that nothing is more precious than
+          kindling a love for STEM amongst middle and high school students.
+          That&apos;s why we present to you the Micromouse competition: an
+          all-encompassing, hands-on educational project that allows students to
+          explore their imaginations and creative problem-solving skills. This
+          is done through working in teams to develop innovative strategies that
+          enable them to program a miniature robot that can move independently
+          from one point of a maze to the other.
           </p>
         </div>
         <div className="px-10">

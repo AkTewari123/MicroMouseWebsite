@@ -57,7 +57,7 @@ export default function Home() {
             </h1>
             <p className="text-[1.5rem] partTwoScreen:text-[125%] partTwoScreenTwo:text-[100%] mb-4">
               We will host our competition in a prestigous college in New Jersey! This competition will take place
-              in late November. We have no finalized a date yet.
+              in late November. We have not finalized a date yet.
             </p>
           </div>
           <div className="md:w-1/2">
