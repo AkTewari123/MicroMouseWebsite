@@ -117,7 +117,7 @@ export const Navbar = (props: NavbarPropsType) => {
                 type="button"
                 className="text-white bg-lightBlue text-[100%] transition-all duration-[700ms] hover:bg-discordPurp focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full px-6 py-1 text-center "
               >
-                Register
+                Preregister
               </button>
             </a>
             <p
@@ -163,7 +163,7 @@ export const Navbar = (props: NavbarPropsType) => {
               </li>
               <li>
                 <a
-                  href="https://chocolate-morena-56.tiiny.site"
+                  href="https://drive.google.com/file/d/1jH054woUF1eq9_MTrjLEkDMdAf2bYGel/view"
                   target="_blank"
                   className="block py-2 px-3 text-gray-900 rounded mt-2 hover:bg-gray-100 md:hover:bg-transparent transition duration-[500ms] md:hover:text-lightBlue md:p-0   dark:hover:bg-gray-700  md:dark:hover:bg-transparent dark:border-gray-700"
                 >
