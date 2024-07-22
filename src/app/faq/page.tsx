@@ -67,7 +67,7 @@ export default function Faq() {
         target="_blank"
         className="text-sheetsGreen font-semibold decoration underline underline-offset-4 decoration-3 inline"
       >
-        (to see an image of a sample maze, mice, and competition that is typical
+        (to see an image of a sample maze, mouse, and competition that is typical
         for a micromouse competition click this link)
         <i className="fas fa-arrow-up rotate-45"></i>
       </a>{" "}
