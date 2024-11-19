@@ -5,7 +5,7 @@ import Navbar from "./comp/navbar";
 import AppleCardsCarouselDemo from "./comp/applecards";
 
 export default function Home() {
-  const typingArray = ["the future", "innovation", "evolution"];
+  const typingArray = ["the future.", "innovation.", "evolution."];
   const [currentText, setCurrentText] = useState("");
   const [isDeleting, setIsDeleting] = useState(false);
   const [loopIndex, setLoopIndex] = useState(0);
@@ -44,7 +44,9 @@ export default function Home() {
       <body>
         <Navbar />
         <div className="h-screen bg-[url('/darkback.png')] bg-cover flex flex-col justify-center items-center">
-          <h1 className="text-white text-[6rem]">MEC Robotics</h1>
+          <h1 className="text-white text-[6rem] " id="mecroboticsHeader">
+            MEC Robotics
+          </h1>
           <p className="text-white text-2xl mt-4">
             We are <span>{currentText}|</span>
           </p>
