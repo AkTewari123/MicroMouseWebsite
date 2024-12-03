@@ -75,7 +75,10 @@ const config = {
   			},
   			gridOne: {
   				max: '1250px'
-  			}
+  			},
+			other: {
+				min:'375px'
+			}
   		}
   	},
   	extend: {
