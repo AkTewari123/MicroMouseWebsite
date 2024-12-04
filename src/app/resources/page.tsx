@@ -18,7 +18,7 @@ export default function Faq() {
       <div className="bg-black min-h-screen">
         <div
           id="resource"
-          className="bg-black text-white  text-center w-1/2 mx-auto mb-16"
+          className="bg-black text-white  text-center w-1/2 mx-auto mb-16 pt-24"
         >
           <h1 className="text-[3rem] mb-2 resourcesHeader font-bold">
             Frequently Asked Questions

@@ -14,7 +14,7 @@ export default function About() {
         <div className="w-full">
           <NavBar></NavBar>
         </div>
-        <div className="px-8">
+        <div className="px-8 py-24">
           <Row className="gridOne grid grid-cols-3 gap-8 py-4">
             <Col className="text-white ">
               <Announcement

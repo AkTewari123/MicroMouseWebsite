@@ -5,8 +5,8 @@ const Loader: React.FC<LoaderProps> = ({ link }) => {
   return (
     <>
       <div className="h-screen bg-black flex mx-auto text-white font-['Outfit'] justify-center items-center ">
-        <div>
-          <h1 className="inline-block mx-auto text-transparent bg-gradient-to-r from-[#1F7BFD] to-[#A190FF] bg-clip-text  text-center text-[9rem] phone:text-[7rem] smallScreen:text-[4rem]">
+        <div className="flex justify-center flex-col">
+          <h1 className="inline-block mx-auto font-bold text-transparent bg-gradient-to-r from-[#1F7BFD] to-[#A190FF] bg-clip-text  text-center text-[9rem] phone:text-[7rem] smallScreen:text-[4rem]">
             MEC
           </h1>
           <p className="text-center">
