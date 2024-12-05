@@ -94,22 +94,24 @@ export const ImagesSlider = ({
       rotateX: 0,
       opacity: 1,
       transition: {
-        duration: 0.5,
-        ease: [0.645, 0.045, 0.355, 1.0],
+        duration: 2, // Adjust the duration for slower transitions
+        ease: "easeInOut", // Use the ease-in-out easing function
       },
     },
     upExit: {
       opacity: 1,
       y: "-150%",
       transition: {
-        duration: 1,
+        duration: 2, // Adjust the duration for smoother transitions
+        ease: "easeInOut", // Use the ease-in-out easing function
       },
     },
     downExit: {
       opacity: 1,
       y: "150%",
       transition: {
-        duration: 1,
+        duration: 2, // Adjust the duration for smoother transitions
+        ease: "easeInOut", // Use the ease-in-out easing function
       },
     },
   };
