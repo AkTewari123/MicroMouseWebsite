@@ -55,7 +55,7 @@ const NavBar: React.FC = () => {
       {/* Middle (Links aligned to the right) */}
       <div className="flex justify-end space-x-4 flex-1">
         <a href="/meet">
-          <h3 className="navHeaders hover-effect mr-8">Judges</h3>
+          <h3 className="navHeaders hover-effect mr-8">Team</h3>
         </a>
         <a href="/announcements">
           <h3 className="navHeaders hover-effect mr-8">Announcements</h3>
