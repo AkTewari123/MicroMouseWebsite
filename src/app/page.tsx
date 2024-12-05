@@ -52,10 +52,7 @@ export default function Home() {
       <body>
         <Navbar />
         <div className="flex items-center justify-center h-screen">
-          <ImagesSlider
-            className="h-[95%] mx-auto w-[95%] rounded-[40px]"
-            images={images}
-          >
+          <ImagesSlider className="" images={images}>
             <motion.div
               initial={{
                 opacity: 0,
