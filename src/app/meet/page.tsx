@@ -22,17 +22,24 @@ const Meet: React.FC = () => {
     },
     {
       quote:
+        "Ayden is the Chief Financial Officer of the organization. He is responsible for the financial aspects of the organization, and he makes sure that funding and donations are acquired in order to keep the operation going.",
+      name: "Ayden Pinto",
+      designation: "Chief Financial Officer",
+      src: "/ayden.jpeg",
+    },
+    {
+      quote:
+        "Henry is the Chief Operations Officer of the organization. He uses his skills & 4H experience to help the organization grow.",
+      name: "Henry Cantor",
+      designation: "Chief Operations Officer",
+      src: "/henry.jpeg",
+    },
+    {
+      quote:
         "Maria has been key in organizing seminars and contacting prospective speakers. She also works on contacting other members of IEEE that are important for the event.",
       name: "Maria Huan",
       designation: "Seminar Coordinator - Core Team",
       src: "/maria.webp",
-    },
-    {
-      quote:
-        "Vinil plays a huge part in terms of outreach and getting the word of the organization out. It's his job to cultivate student interest and also be able to answer micromouse related questions.",
-      name: "Vinil Polepalli",
-      designation: "Outreach Coordinator - Core Team",
-      src: "/vinil.png",
     },
     {
       quote:
@@ -47,13 +54,6 @@ const Meet: React.FC = () => {
       name: "Sanjit Vinod",
       designation: "VP of Advertising - Core Team",
       src: "/sanjit.jpeg",
-    },
-    {
-      quote:
-        "Remy helps Sanjit and his team create ads that are posted weekly! ",
-      name: "Remy Mander",
-      designation: "VP of Advertising - Core Team",
-      src: "/remy.jpeg",
     },
   ];
   const [mounted, setMounted] = useState(false);

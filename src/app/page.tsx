@@ -75,10 +75,21 @@ export default function Home() {
                   We are <span>{currentText}|</span>
                 </p>
               </motion.p>
-              <button className="px-4 hover:scale-110 duration-150 py-2 backdrop-blur-sm border bg-indigo-300/20 border-indigo-500/50 text-white mx-auto text-center rounded-full relative mt-4">
+              <button
+                onClick={() =>
+                  window.open(
+                    "https://docs.google.com/forms/d/e/1FAIpQLSd6NHgufAHAXpRwh9oC5GCiBpt3wNERa2NleFNJmTCrc2Ivqg/viewform",
+                    "_blank"
+                  )
+                }
+                className="px-4 hover:scale-110 duration-150 py-2 backdrop-blur-sm border bg-indigo-300/20 border-indigo-500/50 text-white mx-auto text-center rounded-full relative mt-4"
+              >
                 <span>Join now →</span>
                 <div className="absolute inset-x-0  h-px -bottom-px bg-gradient-to-r w-3/4 mx-auto from-transparent via-indigo-500 to-transparent" />
               </button>
+              <span className="text-sm text-white">
+                (Scroll down to learn more ↓)
+              </span>
             </motion.div>
           </ImagesSlider>
         </div>
