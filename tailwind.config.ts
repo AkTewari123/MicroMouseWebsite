@@ -1,61 +1,154 @@
-import type { Config } from "tailwindcss";
+import type { Config } from "tailwindcss"
 
-const config: Config = {
+const config = {
+  darkMode: ["class"],
   content: [
-    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
-  ],
+    './pages/**/*.{ts,tsx}',
+    './components/**/*.{ts,tsx}',
+    './app/**/*.{ts,tsx}',
+    './src/**/*.{ts,tsx}',
+	],
+  prefix: "",
   theme: {
-    extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-      },
-      screens: {
-        '2xl': {'max': '1535px'},
-        // => @media (max-width: 1535px) { ... }
-        'partTwoScreen': {'max': '1200px'},
-        'partTwoScreenTwo': {'max': '1000px'},
-        'macBook': {'max':'1550px', 'min':'1250px'},
-        'macBookTwo': {'max':'1250px', 'min':'710px'},
-        'macBookFin': {'max':'709px'},
-        'partTwoScreenThree': {'max': '900px'},
-        'laptop': {'min': '1000px'}, 
-        'remyScreen': {"max": "1100px"},
-        'questionScreen': {"max": "800px"},
-        'tablet': {'min': '800px', 'max': '999px'},
-
-        'smtablet': {'min': '600px', 'max': '799px'},
-        // => @media (max-width: 1023px) { ... }
-  
-        'phone': {'min':'300px', 'max': '599px'},
-        // => @media (max-width: 767px) { ... }
-  
-        'smphone': {'max': '639px'},
-        // => @media (max-width: 639px) { ... }
-      },
-      fontFamily: {
-        sans: ['var(--font-phosphate)']
-      }, 
-      colors: {
-        "lightBlue": '#5FC3E4',
-        'blackGood': '#2B2B2C',
-        'silverBord': "#5E5E5F",
-        'greyGood': '#E8EAEC',
-        'discordPurp': '#5864F2',
-        'sheetsGreen': '#1FA463',
-        'formPurp': "#7248B9",
-        "youtubeRed": "#FF0000",
-        "tcnjBlue": "#474E7D",
-        "autodeskYellow": "#FAC52D",
-        "ieeeGreen": "#27C2A0",
-        "lightRed": "#E55D76"
-
-      }
-    },
+  	container: {
+  		padding: '2rem',
+  		screens: {
+  			partTwoScreen: {
+  				max: '1200px'
+  			},
+  			partTwoScreenTwo: {
+  				max: '1000px'
+  			},
+  			macBook: {
+  				max: '1550px',
+  				min: '1250px'
+  			},
+  			macBookTwo: {
+  				max: '1250px',
+  				min: '710px'
+  			},
+  			macBookFin: {
+  				max: '709px'
+  			},
+  			partTwoScreenThree: {
+  				max: '900px'
+  			},
+  			laptop: {
+  				min: '1000px'
+  			},
+  			questionScreen: {
+  				max: '800px'
+  			},
+  			tablet: {
+  				min: '638px',
+  				max: '900px'
+  			},
+  			homeScreenOne: {
+  				min: '800px',
+  				max: '1021px'
+  			},
+  			marginOne: {
+  				min: '800px',
+  				max: '1263px'
+  			},
+  			smtablet: {
+  				min: '600px',
+  				max: '799px'
+  			},
+  			phone: {
+  				max: '637px'
+  			},
+  			smphone: {
+  				max: '575px'
+  			},
+  			smallScreen: {
+  				max: '410px'
+  			},
+  			smScreen: {
+  				max: '991px'
+  			},
+  			profileNavScreen: {
+  				max: '822px'
+  			},
+  			buttonScreen: {
+  				max: '767px'
+  			},
+  			gridOne: {
+  				max: '1250px'
+  			},
+			other: {
+				min:'375px'
+			}
+  		}
+  	},
+  	extend: {
+  		backgroundImage: {
+  		},
+  		colors: {
+  			border: 'hsl(var(--border))',
+  			input: 'hsl(var(--input))',
+  			ring: 'hsl(var(--ring))',
+  			background: 'hsl(var(--background))',
+  			foreground: 'hsl(var(--foreground))',
+  			primary: {
+  				DEFAULT: 'hsl(var(--primary))',
+  				foreground: 'hsl(var(--primary-foreground))'
+  			},
+  			secondary: {
+  				DEFAULT: 'hsl(var(--secondary))',
+  				foreground: 'hsl(var(--secondary-foreground))'
+  			},
+  			destructive: {
+  				DEFAULT: 'hsl(var(--destructive))',
+  				foreground: 'hsl(var(--destructive-foreground))'
+  			},
+  			muted: {
+  				DEFAULT: 'hsl(var(--muted))',
+  				foreground: 'hsl(var(--muted-foreground))'
+  			},
+  			accent: {
+  				DEFAULT: 'hsl(var(--accent))',
+  				foreground: 'hsl(var(--accent-foreground))'
+  			},
+  			popover: {
+  				DEFAULT: 'hsl(var(--popover))',
+  				foreground: 'hsl(var(--popover-foreground))'
+  			},
+  			card: {
+  				DEFAULT: 'hsl(var(--card))',
+  				foreground: 'hsl(var(--card-foreground))'
+  			}
+  		},
+  		borderRadius: {
+  			lg: 'var(--radius)',
+  			md: 'calc(var(--radius) - 2px)',
+  			sm: 'calc(var(--radius) - 4px)'
+  		},
+  		keyframes: {
+  			'accordion-down': {
+  				from: {
+  					height: '0'
+  				},
+  				to: {
+  					height: 'var(--radix-accordion-content-height)'
+  				}
+  			},
+  			'accordion-up': {
+  				from: {
+  					height: 'var(--radix-accordion-content-height)'
+  				},
+  				to: {
+  					height: '0'
+  				}
+  			}
+  		},
+  		animation: {
+  			'accordion-down': 'accordion-down 0.2s ease-out',
+  			'accordion-up': 'accordion-up 0.2s ease-out'
+  		}
+  	}
   },
-  plugins: [],
-};
-export default config;
+  plugins: [require("tailwindcss-animate")],
+} satisfies Config
+
+export default config
