@@ -256,7 +256,7 @@ export default function Faq() {
             </AccordionItem>
           </Accordion>
           <Accordion
-            className="text-white w-3/5 mx-auto accItems"
+            className="text-white w-3/5 mx-auto accItems pb-16"
             type="single"
             collapsible
           >
