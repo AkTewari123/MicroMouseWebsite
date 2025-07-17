@@ -8,13 +8,9 @@ import {
   UIEvent,
 } from "react";
 type NavbarPropsType = {
-    borderOne?: string;
-    borderTwo?: string;
-    borderThree?: string;
-    children?: any;
-  };
-  const Navbar = (props: NavbarPropsType) => {
-
-
-    
-  }
+  borderOne?: string;
+  borderTwo?: string;
+  borderThree?: string;
+  children?: any;
+};
+const Navbar = (props: NavbarPropsType) => {};

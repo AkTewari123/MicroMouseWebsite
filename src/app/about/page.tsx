@@ -4,6 +4,7 @@ import { phosphate } from "../fonts";
 import { Navbar, Footer } from "../components";
 
 export default function About() {
+  // fix this later
   return (
     <>
       <Navbar
@@ -143,7 +144,7 @@ export default function About() {
               <h1 className="text-xl">Akshat Tewari</h1>
               <h1 className="text-[#5FC3E4] text-lg">Technology Lead</h1>
             </div>
-            <div className="font-bold text-center">
+            <div className="font-bold text-center" >
               <img
                 src="/remy.jpeg"
                 className="h-[200px] center rounded-full block mb-5"
