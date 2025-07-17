@@ -4,6 +4,7 @@ import { phosphate } from "../fonts";
 import { Navbar, Footer } from "../components";
 
 export default function About() {
+  // fix this later
   return (
     <>
       <Navbar
