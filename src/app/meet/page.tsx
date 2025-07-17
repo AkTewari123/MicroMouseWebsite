@@ -55,6 +55,13 @@ const Meet: React.FC = () => {
       designation: "VP of Advertising - Core Team",
       src: "/sanjit.jpeg",
     },
+    {
+      quote:
+        "Yash is the Outreach Coordinator of the organization. He is responsible for getting the word out about the organization and its events.",
+      name: "Yash Kanda",
+      designation: "Core Team Member",
+      src: "/yash.jpeg",
+    },
   ];
   const [mounted, setMounted] = useState(false);
   useEffect(() => {
