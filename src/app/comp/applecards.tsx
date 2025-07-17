@@ -112,19 +112,19 @@ const data = [
   },
   {
     category: "Venue & Time",
-    title: "New Jersey Institute of Technology",
-    src: "/njit.jpg",
+    title: "Rutgers University",
+    src: "/rutgers.jpg",
     //If you would like to stay up to date with all the  Discord Server for MEC, please navigate to the &quot;Resources&quot; tab or go to the
     content: (
       <AppleCards
         text={() => {
           return (
             <>
-              The MEC Robotics Competition will be held at NJIT in the summer of
-              2025. The specific date is tentative (subject to change). We will
-              notify all participants once a date is finalized. You can
-              preregister without commitment by clicking on the "Preregister"
-              option on the right of the navbar or by clicking{" "}
+              The MEC Robotics Competition will be held at NJIT on September 27,
+              2025. This date is tentative (subject to change). We will notify
+              all participants once a date is finalized. You can preregister
+              without commitment by clicking on the "Preregister" option on the
+              right of the navbar or by clicking{" "}
               <b>
                 <a
                   className="text-[#1F7BFD]"
@@ -197,7 +197,7 @@ const data = [
               We hold monthly seminars with world-class engineers to provide our
               contestants with the information they need to succeed. If you
               attend the whole set of seminars that is slated to take place in
-              Spring &apos;25, you will walk away with a FULLY CONSTRUCTED
+              August &apos;25, you will walk away with a FULLY CONSTRUCTED
               micromouse. Please visit the "Announcements" tab for more
               information. Join us on{" "}
               <a
