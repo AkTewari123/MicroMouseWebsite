@@ -45,7 +45,7 @@ export default function About() {
 
                   className="h-[200px] center rounded-full block mb-5"
                 ></img>
-                <h1 className="text-xl">Ali Daneshmand </h1>
+                <h1 className="text-xl">Ali Daneshmand  </h1>
                 <h1 className="text-[#5FC3E4] text-lg">IEEE Judge</h1>
               </a>
             </div>
