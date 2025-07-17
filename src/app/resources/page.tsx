@@ -41,7 +41,7 @@ export default function Faq() {
                 <>
                   The{" "}
                   <a
-                    href="https://discord.gg/AjcAVctz"
+                    href="https://discord.gg/DFtVwdgD"
                     target="_blank"
                     className="text-indigo-600 font-semibold decoration underline underline-offset-4 decoration-3 inline"
                   >
